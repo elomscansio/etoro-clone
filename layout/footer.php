@@ -1,4 +1,4 @@
-<footer _ngcontent-ng-c1272297247="" class="page-footer ng-tns-c1272297247-0 ng-star-inserted">
+<footer _ngcontent-ng-c1272297247="" class="page-footer ng-tns-c1272297247-0 ng-star-inserted" style="<?php echo ($nofooter ? "display: none;" : ""); ?>">
     <!---->
     <et-bottom-trade-button _ngcontent-ng-c1272297247=""
         class="trade-button ng-tns-c1272297247-0" _nghost-ng-c2350055425="">

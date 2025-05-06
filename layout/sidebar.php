@@ -1,5 +1,5 @@
 <div _ngcontent-ng-c1272297247=""
-    class="side-nav ets-scroll-sidenav ets-hover-scroll ng-tns-c1272297247-0 ng-star-inserted">
+    class="side-nav ets-scroll-sidenav ets-hover-scroll ng-tns-c1272297247-0 ng-star-inserted " style="<?php echo ($nosidebar ? "display: none;" : ""); ?>">
     <et-layout-sidenav _ngcontent-ng-c1272297247="" _nghost-ng-c532554544=""
         class="ng-tns-c1272297247-0 ng-star-inserted">
         <aside _ngcontent-ng-c532554544="" class="nav-all expanded ng-star-inserted"

@@ -4,7 +4,7 @@
 </div>
 </div>
 <!---->
-<?php echo require 'footer.php'; ?>
+<?php require 'footer.php'; ?>
 <!---->
 </div>
 </div>

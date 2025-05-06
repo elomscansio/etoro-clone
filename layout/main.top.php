@@ -9,6 +9,7 @@
     <!-- ngIf: :: data.noFollow -->
     <!-- ngIf: :: data.referrer -->
     <!-- END META -->
+    <?php require 'style.php'; ?>
 
     <meta charset="utf-8" />
 
@@ -107,14 +108,14 @@
                 <!---->
                 <div _ngcontent-ng-c1272297247=""
                     class="ng-tns-c1272297247-0 container-level2 layout-sidenav-expanded layout-sidenav-closed layout-header-sticky">
-                    <?php echo require 'sidebar.php'; ?>
+                    <?php require 'sidebar.php'; ?>
                     <!---->
                     <div _ngcontent-ng-c1272297247="" class="ng-tns-c1272297247-0 container-level3">
                         <div _ngcontent-ng-c1272297247=""
                             class="container-overlay ng-tns-c1272297247-0 ng-star-inserted"></div>
                         <!---->
 
-                        <?php echo require 'header.php'; ?>
+                        <?php require 'header.php'; ?>
                         <!---->
                         <!---->
                         <div _ngcontent-ng-c1272297247="" class="ng-tns-c1272297247-0 page-content">

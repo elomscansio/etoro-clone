@@ -1,0 +1,66 @@
+<div class="cdk-overlay-container">
+    <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+    <div class="cdk-global-overlay-wrapper" dir="ltr" style="justify-content: center; align-items: center;">
+        <div id="cdk-overlay-0" class="cdk-overlay-pane" style="max-width: 100vw; position: static;"><et-dialog-container tabindex="-1" class="dialog-container ng-tns-c1415986070-5 ng-trigger ng-trigger-dialogContainer ng-star-inserted" _nghost-ng-c1415986070="" style="transform: none;"><et-deposit-popup-v2 _nghost-ng-c2610036046="" class="ng-star-inserted">
+                    <div _ngcontent-ng-c2610036046="" class="payments-dialog payments-dialog--overflow-unset-if-select-opened ng-star-inserted" style="">
+                        <div _ngcontent-ng-c2610036046="" class="payments-dialog-header"><!----><!---->
+                            <h1 _ngcontent-ng-c2610036046="" automation-id="deposit-v2-title" class="et-font-xl et-bold-font payments-dialog-header-title ng-star-inserted">Fund Your Account</h1><!---->
+                            <div _ngcontent-ng-c2610036046="" automation-id="deposit-v2-close" class="payments-dialog-button-close"></div>
+                        </div>
+                        <div _ngcontent-ng-c2610036046="" class="payments-dialog-body">
+                            <div _ngcontent-ng-c2610036046="" class="payments-dialog-body-top"><!----><!----><et-deposit-amount-selection-v2 _ngcontent-ng-c2610036046="" automation-id="deposit-v2-deposit-amount-selection-v2" _nghost-ng-c386418485="">
+                                    <div _ngcontent-ng-c386418485="">
+                                        <div _ngcontent-ng-c386418485="" class="cmp-form">
+                                            <div _ngcontent-ng-c386418485="" class="cmp-form-first"><et-select-autocomplete _ngcontent-ng-c386418485="" automation-id="deposit-v2-amount-selection-currency-dropdown" class="cmp-form-currency cmp-form-currency--dropdown ng-untouched ng-pristine ng-valid ng-star-inserted" _nghost-ng-c3063122619=""><et-select _ngcontent-ng-c3063122619="" _nghost-ng-c206250979="" class="ng-tns-c206250979-6 ng-star-inserted">
+                                                        <div _ngcontent-ng-c206250979="" class="ng-tns-c206250979-6 new-dropdown-style"><et-select-header _ngcontent-ng-c3063122619="" _nghost-ng-c3317408547="" class="ng-tns-c206250979-6">
+                                                                <div _ngcontent-ng-c3317408547="" automation-id="select-header-text" class="header-text"> USD <!----><!----><!----><!----></div><i _ngcontent-ng-c3317408547="" automation-id="select-header-icon-arrow-down" class="icon-arrow-down"></i><i _ngcontent-ng-c3317408547="" class="arrow-down"></i>
+                                                            </et-select-header><!----></div><!----><!----><!---->
+                                                    </et-select></et-select-autocomplete><!----><!----><et-amount-input _ngcontent-ng-c386418485="" automation-id="deposit-v2-amount-selection-amount-input" class="cmp-form-amount-input ng-valid ng-touched ng-dirty" _nghost-ng-c157263676="">
+                                                    <div _ngcontent-ng-c157263676="" class="container ng-star-inserted">
+                                                        <div _ngcontent-ng-c157263676="" class="symbol et-base-font" style="font-size: 18px; margin-bottom: -2px;"> $ </div>
+                                                        <div _ngcontent-ng-c157263676="" class="input-wrapper et-bold-font"><input _ngcontent-ng-c157263676="" etamountinputdecimalcomma="" autocomplete="off" type="text" inputmode="decimal" thousandseparator="," class="et-base-font ng-pristine ng-valid ng-touched" automation-id="undefined-input-amount" maxlength="16" style="font-size: 20px; width: 100%;"></div>
+                                                    </div><!---->
+                                                </et-amount-input></div>
+                                            <div _ngcontent-ng-c386418485="" class="cmp-form-second ng-star-inserted"><!----></div><!----><!---->
+                                        </div>
+                                        <div _ngcontent-ng-c386418485="" class="cmp-notifications ng-star-inserted"><et-deposit-club-upgrade-touchpoint _ngcontent-ng-c386418485="" _nghost-ng-c1380571272=""><!----></et-deposit-club-upgrade-touchpoint></div><!----><!----><!----><!---->
+                                    </div>
+                                </et-deposit-amount-selection-v2></div>
+                            <div _ngcontent-ng-c2610036046="" class="payments-dialog-body-bottom">
+                                <div _ngcontent-ng-c2610036046="" class="payment-method-container ng-star-inserted"><span _ngcontent-ng-c2610036046="" class="choose-payment-method-title ets-semi-bold"> Choose payment method: </span><et-deposit-payment-method-dropdown-v2 _ngcontent-ng-c2610036046="" automation-id="deposit-v2-deposit-payment-method-dropdown-v2" class="cmp-deposit-payment-method-dropdown-v2 change-location-mop borderless" _nghost-ng-c2653434329=""><et-select _ngcontent-ng-c2653434329="" automation-id="deposit-payment-method-dropdown" class="i-settings-input-hp ng-tns-c206250979-7 ng-star-inserted" _nghost-ng-c206250979="">
+                                            <div _ngcontent-ng-c206250979="" class="ng-tns-c206250979-7 new-dropdown-style"><et-select-header _ngcontent-ng-c2653434329="" _nghost-ng-c3317408547="" class="ng-tns-c206250979-7">
+                                                    <div _ngcontent-ng-c3317408547="" automation-id="select-header-text" class="header-text">
+                                                        <div _ngcontent-ng-c2653434329="" automation-id="deposit-payment-method-dropdown-header" class="header-container" automation-selected-payment-method="1"><!----><span _ngcontent-ng-c2653434329="" class="po-text-option ets-semi-bold ng-star-inserted"> Credit/Debit Card </span><!----><!----><!----><!----></div>
+                                                    </div><i _ngcontent-ng-c3317408547="" automation-id="select-header-icon-arrow-down" class="icon-arrow-down"></i><i _ngcontent-ng-c3317408547="" class="arrow-down"></i>
+                                                </et-select-header><!----></div><!----><!----><!---->
+                                        </et-select><!----><!----></et-deposit-payment-method-dropdown-v2></div><!----><et-deposit-payment-method-form _ngcontent-ng-c2610036046="" automation-id="deposit-v2-deposit-payment-method-form" class="cmp-deposit-payment-method-form change-location-payment-form ng-star-inserted" _nghost-ng-c1406230211=""><!----><et-credit-card-v2 _ngcontent-ng-c1406230211="" _nghost-ng-c3641117842="" class="ng-star-inserted"><et-credit-card-pci-iframe-v2 _ngcontent-ng-c3641117842="" automation-id="credit-card-v2-credit-card-pci-iframe" class="cmp-credit-card-pci-iframe" _nghost-ng-c958328460="">
+                                            <div _ngcontent-ng-c958328460="" class="cmp-iframe-wrapper"><iframe _ngcontent-ng-c958328460="" automation-id="deposit-credit-card-iframe-v2" src="https://billing-pci.etoro.com/?culture=en-gb&amp;oauth_token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiNDI2NzgiLCJ0eXAiOiJKV1QiLCJjdHkiOiJKV1QifQ..mx7CQhgFpTbcJTJzjwuBQw.OlhVC9aTjoJC8TMCnaYIdH0k-_tq4HwWHVuBY-I4yuFWAKxhuV_5II1AYud0TZG8CVyN42BkliVoCdxt6ttf3fYjT6NGrO4pru8Cut8KOD_ws6F6o8YnsqDhmSx-innhchtBzMP0c2tfHrSN-jNsHyBt4uHe2e1gNT9MPBBeTHxDJTmArTSHbN1eQEJyyePhY1pIMVeYHkPytzHKC2JAcTz3F4uxSOG6YXSSRY3212mfmfGTpCIKmveqz1JZd28cKHGdcB8L4MoiQkwDkkWPQ0IESTqHTp1wLhS4sRnMSEoj1Egh8YS7IqsrREoSUK4uGInrMK9lBzvrEVkAsAOBfuMgAlJrf29qZZtC1juEBX3ExZGMZfeVaQctQ9TbYsbuuo9QO0O1j_XcIWPC7ck16c7V18LRunvSjSxGPhROhhSNRvaT882sWqP0dVEK4roje7uXNYgEH5shq0lt8RwXRwXLflrEyuc34NHTNaOZEGFUtCQsNDAeQgu43kU8a5Do9vT1IatFWa8qP6_8xrbIvnhdsaM0s5j0JdH50wvSYa1UAuCcze-AZtCF-30MKNJKWXR6Qccly31O2um8uw1wr-nVA09r4r2Fey7cz8coRuxRJ2SoQsw7YcgbeNYtql0PfvtWNoBm4OYkdEkObnrFUxaDZBfjEWfDnitZqgpRzUNRDRV6VYDyU8BajFsuhvTPf7dbkjfyES7sxs1_WoMNrKIEzyk0TSMVyJ8U4qMn350ybi3oHqkeVs7hupCZ5V_UVOtRbWqWAGeH_pZgkosTXoSW7WHlRvxaN89EHr7dgD-sRl-nTSLzwSzzpW82bJYVjuptHcZz0CCmcTCgQbk-hB3oK-MudZRq8hYdpMUnHj2OEs8UeFYyM9eOXWCHf2PIhVhMVwFOjy5qN76sj1CGa9XlrJITe2bcbFEdgE4pfA7MHA95csDbi2homWv1l-VKN-pXvYo0ANQ6_jjhAyN0P_VR_cj5JRYP52_8KHtzVG-UlCCyYCZ2GzfZ5yKkKdXSRTEM-4dX7Uei8Fym0vL5eNMC3IH732FUZppQOHbksEw0z5W8TtEN70hzbUw5dBWi4zwSl11-6rRF7nV3z3gQ_h6rokuaS8qp-UWH1aWc8W6RH65F-p2aelGGF8-ycFH67jfMsfg-S-06QR33dcHx7NlZqSW1jwCyR72fO_JtKbVfpzsCe6kc9TaL8FcjSzg1T9ukMRIWnjfXF95YdGX-fDUyOKyXnAQ-KnmjL9F_lR9csE8Ab8oM-6eUTJxVb5UzjmFCX1CO4WoeJfudAwBkInihbRxsAh0KCGZg9eKK24iQ7RFo6VVZeCsfydd4IZfoU8u3PnkTFaZhwDCcopU_l1f0SAz_UwH234HSZ7YAx-GshA2sItHDHcSOXYDfK9jUHMXSSci1z4Pn0j5eYPsZGbxNji4QFlyURSaN2UglgE47zK0jWq4cp8-D8IqvcNol.-K6swDa1U9jqUh_f9NrBrF8GrqKdABluoLRTJWpiZVg&amp;isV3=true&amp;theme=light" style="height: 75px;"></iframe></div>
+                                        </et-credit-card-pci-iframe-v2><et-deposit-billing-details-v2 _ngcontent-ng-c3641117842="" automation-id="credit-card-v2-deposit-billing-details" _nghost-ng-c2750577280=""><!---->
+                                            <div _ngcontent-ng-c2750577280="" class="cmp-form ng-untouched ng-pristine ng-invalid"><et-n-input _ngcontent-ng-c2750577280="" class="cmp-form-input" _nghost-ng-c2365232974="">
+                                                    <div _ngcontent-ng-c2365232974="" class="input-wrapper invalid">
+                                                        <div _ngcontent-ng-c2365232974="" class="label-wrapper invalid"><label _ngcontent-ng-c2750577280="" for="firstName"> First Name </label></div><input _ngcontent-ng-c2750577280="" etinputfield="" type="text" id="firstName" automation-id="deposit-billing-details-v2-first-name" formcontrolname="firstName" class="ng-untouched ng-pristine ng-invalid et-input">
+                                                        <div _ngcontent-ng-c2365232974="" class="et-input-under"><!----></div>
+                                                    </div>
+                                                </et-n-input><et-n-input _ngcontent-ng-c2750577280="" class="cmp-form-input" _nghost-ng-c2365232974="">
+                                                    <div _ngcontent-ng-c2365232974="" class="input-wrapper">
+                                                        <div _ngcontent-ng-c2365232974="" class="label-wrapper"><label _ngcontent-ng-c2750577280="" for="middleName"> Middle Name </label></div><input _ngcontent-ng-c2750577280="" etinputfield="" type="text" id="middleName" automation-id="deposit-billing-details-v2-middle-name" formcontrolname="middleName" class="ng-untouched ng-pristine ng-valid et-input">
+                                                        <div _ngcontent-ng-c2365232974="" class="et-input-under"><!----></div>
+                                                    </div>
+                                                </et-n-input><et-n-input _ngcontent-ng-c2750577280="" class="cmp-form-input" _nghost-ng-c2365232974="">
+                                                    <div _ngcontent-ng-c2365232974="" class="input-wrapper invalid">
+                                                        <div _ngcontent-ng-c2365232974="" class="label-wrapper invalid"><label _ngcontent-ng-c2750577280="" for="lastName"> Last Name </label></div><input _ngcontent-ng-c2750577280="" etinputfield="" type="text" id="lastName" automation-id="deposit-billing-details-v2-last-name" formcontrolname="lastName" class="ng-untouched ng-pristine ng-invalid et-input">
+                                                        <div _ngcontent-ng-c2365232974="" class="et-input-under"><!----></div>
+                                                    </div>
+                                                </et-n-input></div><!---->
+                                        </et-deposit-billing-details-v2><!---->
+                                        <div _ngcontent-ng-c3641117842="" automation-id="credit-card-v2-credit-card-currency-disclaimer" class="et-margin-top-l et-text-align-center">
+                                            <p _ngcontent-ng-c3641117842="" class="ets-info cmp-credit-card-disclaimer ng-star-inserted"><span class="et-color-black et-bold-font">Note: </span>This card should belong to you and be in your name.</p><!---->
+                                        </div>
+                                    </et-credit-card-v2><!----><!----><!----><!----><!----><!----><!----><!----><!----></et-deposit-payment-method-form><!----><!---->
+                            </div>
+                        </div>
+                        <div _ngcontent-ng-c2610036046="" class="payments-dialog-footer"><button _ngcontent-ng-c2610036046="" automation-id="deposit-v2-form-button" class="ets-button-basic ets-button-big ets-button-primary cmp-button ng-star-inserted"> Deposit </button><!----></div>
+                    </div><!----><!----><!----><!---->
+                </et-deposit-popup-v2><!----></et-dialog-container></div>
+    </div>
+</div>

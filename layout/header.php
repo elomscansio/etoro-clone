@@ -1,6 +1,6 @@
-<div _ngcontent-ng-c1272297247="" class="header ng-tns-c1272297247-0 ng-star-inserted">
+<div _ngcontent-ng-c1272297247="" class="header ng-tns-c1272297247-0 ng-star-inserted" style="<?php echo ($noheader ? "display: none;" : ""); ?>">
     <et-layout-header _ngcontent-ng-c1272297247=""
-        class="no-header-border ng-tns-c1272297247-0 ng-star-inserted"
+        class=" no-header-border ng-tns-c1272297247-0 ng-star-inserted"
         _nghost-ng-c1927532596="">
         <div _ngcontent-ng-c1927532596="" class="layout-wrapper ng-star-inserted">
             <div _ngcontent-ng-c1927532596="" class="item">
