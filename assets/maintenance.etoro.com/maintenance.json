@@ -1,0 +1,1 @@
+{ "pagesConfig" : { "client" : { "plannedClient" : [false] } , "known": { "isNotOfflineTrader" : [false] , "isOfflineTrader" : [false] } , "error" : { "isNotOfflineTrader" : [false] , "isOfflineTrader" : [false] } } , "shouldRedirect" : [true] , "problemWindowInMS" : [60000] , "problemGiveUpCounter" : [3] }

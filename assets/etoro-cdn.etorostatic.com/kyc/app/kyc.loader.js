@@ -1,0 +1,1 @@
+window['kycLoaderPath']='https://etoro-cdn.etorostatic.com/kyc/app/v651.677.5/'; define(['https://etoro-cdn.etorostatic.com/kyc/app/v651.677.5/kyc.ce5230e71ab22c567bda.js'],function (kyc) {return kyc;});

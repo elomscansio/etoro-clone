@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="21" viewBox="0 0 55 21">
+    <defs>
+        <linearGradient id="t81pbai8fa" x1="50%" x2="50%" y1="38.65%" y2="75.406%">
+            <stop offset="0%" stop-color="#F5F5F5"/>
+            <stop offset="100%" stop-color="#F9F9F9" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="ujbpv22h0b" x1="0%" x2="122.816%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd" opacity=".75">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <path fill="url(#t81pbai8fa)" d="M1.77 9.655L4.375 7.724 8.281 7.724 9.584 10.138 11.862 10.138 15.443 8.207 18.373 9.655 20.652 7.241 24.884 5.31 26.837 3.379 31.395 2.414 33.023 3.862 35.627 5.31 38.882 3.379 41.812 3.621 43.114 3.621 46.044 0 50.602 2.414 52.23 0 52.23 19.104 1.77 19.104z" transform="translate(-693.000000, -45.000000) translate(592.400000, 15.000000) translate(101.000000, 2.000000) translate(0.000000, 28.000000) translate(0.000000, 1.750000)"/>
+                        <path stroke="#BABABA" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5" d="M1.77 10L4.375 8 8.281 8 9.584 10.5 11.862 10.5 15.443 8.5 18.373 10 20.652 7.5 24.884 5.5 26.837 3.5 31.395 2.5 33.023 4 35.627 5.5 38.882 3.5 41.812 3.75 43.114 3.75 46.044 0 50.602 2.5 52.23 0" transform="translate(-693.000000, -45.000000) translate(592.400000, 15.000000) translate(101.000000, 2.000000) translate(0.000000, 28.000000) translate(0.000000, 1.750000)"/>
+                        <path fill="url(#ujbpv22h0b)" d="M21.313 -13.584L32.688 -13.584 32.688 40.416 21.313 40.416z" transform="translate(-693.000000, -45.000000) translate(592.400000, 15.000000) translate(101.000000, 2.000000) translate(0.000000, 28.000000) translate(0.000000, 1.750000) translate(27.000000, 13.416224) rotate(-90.000000) translate(-27.000000, -13.416224)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
