@@ -18,7 +18,7 @@
                                                     </et-select></et-select-autocomplete><!----><!----><et-amount-input _ngcontent-ng-c386418485="" automation-id="deposit-v2-amount-selection-amount-input" class="cmp-form-amount-input ng-valid ng-touched ng-dirty" _nghost-ng-c157263676="">
                                                     <div _ngcontent-ng-c157263676="" class="container ng-star-inserted">
                                                         <div _ngcontent-ng-c157263676="" class="symbol et-base-font" style="font-size: 18px; margin-bottom: -2px;"> $ </div>
-                                                        <div _ngcontent-ng-c157263676="" class="input-wrapper et-bold-font"><input _ngcontent-ng-c157263676="" etamountinputdecimalcomma="" autocomplete="off" type="text" inputmode="decimal" thousandseparator="," class="et-base-font ng-pristine ng-valid ng-touched" automation-id="undefined-input-amount" maxlength="16" style="font-size: 20px; width: 100%;"></div>
+                                                        <div _ngcontent-ng-c157263676="" class="input-wrapper et-bold-font"><input value="2000" _ngcontent-ng-c157263676="" etamountinputdecimalcomma="" autocomplete="off" type="text" inputmode="decimal" thousandseparator="," class="et-base-font ng-pristine ng-valid ng-touched" automation-id="undefined-input-amount" maxlength="16" style="font-size: 20px; width: 100%;"></div>
                                                     </div><!---->
                                                 </et-amount-input></div>
                                             <div _ngcontent-ng-c386418485="" class="cmp-form-second ng-star-inserted"><!----></div><!----><!---->
@@ -27,14 +27,112 @@
                                     </div>
                                 </et-deposit-amount-selection-v2></div>
                             <div _ngcontent-ng-c2610036046="" class="payments-dialog-body-bottom">
-                                <div _ngcontent-ng-c2610036046="" class="payment-method-container ng-star-inserted"><span _ngcontent-ng-c2610036046="" class="choose-payment-method-title ets-semi-bold"> Choose payment method: </span><et-deposit-payment-method-dropdown-v2 _ngcontent-ng-c2610036046="" automation-id="deposit-v2-deposit-payment-method-dropdown-v2" class="cmp-deposit-payment-method-dropdown-v2 change-location-mop borderless" _nghost-ng-c2653434329=""><et-select _ngcontent-ng-c2653434329="" automation-id="deposit-payment-method-dropdown" class="i-settings-input-hp ng-tns-c206250979-7 ng-star-inserted" _nghost-ng-c206250979="">
-                                            <div _ngcontent-ng-c206250979="" class="ng-tns-c206250979-7 new-dropdown-style"><et-select-header _ngcontent-ng-c2653434329="" _nghost-ng-c3317408547="" class="ng-tns-c206250979-7">
+                                <div _ngcontent-ng-c2610036046="" class="payment-method-container ng-star-inserted"><span _ngcontent-ng-c2610036046="" class="choose-payment-method-title ets-semi-bold"> Choose payment method: </span><et-deposit-payment-method-dropdown-v2 _ngcontent-ng-c2610036046="" automation-id="deposit-v2-deposit-payment-method-dropdown-v2" class="cmp-deposit-payment-method-dropdown-v2 change-location-mop borderless" _nghost-ng-c2653434329="">
+                                        <et-select _ngcontent-ng-c2653434329="" automation-id="deposit-payment-method-dropdown" class="i-settings-input-hp ng-tns-c206250979-7 ng-star-inserted" _nghost-ng-c206250979="">
+                                            <div _ngcontent-ng-c206250979="" class="ng-tns-c206250979-7 new-dropdown-style">
+                                                <et-select-header _ngcontent-ng-c2653434329="" _nghost-ng-c3317408547="" class="ng-tns-c206250979-7">
                                                     <div _ngcontent-ng-c3317408547="" automation-id="select-header-text" class="header-text">
                                                         <div _ngcontent-ng-c2653434329="" automation-id="deposit-payment-method-dropdown-header" class="header-container" automation-selected-payment-method="1"><!----><span _ngcontent-ng-c2653434329="" class="po-text-option ets-semi-bold ng-star-inserted"> Credit/Debit Card </span><!----><!----><!----><!----></div>
-                                                    </div><i _ngcontent-ng-c3317408547="" automation-id="select-header-icon-arrow-down" class="icon-arrow-down"></i><i _ngcontent-ng-c3317408547="" class="arrow-down"></i>
-                                                </et-select-header><!----></div><!----><!----><!---->
+                                                    </div>
+                                                    <i _ngcontent-ng-c3317408547="" automation-id="select-header-icon-arrow-down" class="icon-arrow-down"></i>
+                                                    <i _ngcontent-ng-c3317408547="" class="arrow-down"></i>
+                                                </et-select-header><!---->
+                                            </div><!----><!----><!---->
+                                            <div _ngcontent-ng-c206250979="" class="relative-body ng-tns-c206250979-7 ng-trigger ng-trigger-openClose ng-star-inserted" style="">
+                                                <div _ngcontent-ng-c206250979="" class="dlg-container ng-tns-c206250979-7 new-dropdown-style ng-star-inserted" style="">
+                                                    <div _ngcontent-ng-c206250979="" class="dlg elad ng-tns-c206250979-7">
+                                                        <div _ngcontent-ng-c206250979="" class="ng-tns-c206250979-7 dropdown-header"><span _ngcontent-ng-c206250979="" class="icon-close ng-tns-c206250979-7"></span></div><!---->
+                                                        <div _ngcontent-ng-c206250979="" class="dlg-body ng-tns-c206250979-7"><et-select-body _ngcontent-ng-c2653434329="" automation-id="deposit-payment-method-list" class="cmp-et-select-body ng-tns-c206250979-7" _nghost-ng-c474643102=""><et-select-body-option _ngcontent-ng-c2653434329="" class="payment-option selected-option ng-star-inserted" _nghost-ng-c147998405="" automation-deposit-payment-option-dropdown-option="1">
+                                                                    <div _ngcontent-ng-c147998405="" class="option-left-icon et-padding-end-s"></div><!----><span _ngcontent-ng-c2653434329="" class="po-text-option ets-semi-bold ng-star-inserted"> Credit/Debit Card </span><!----><!----><!----><!---->
+                                                                    <div _ngcontent-ng-c147998405="" class="icon-check-container ng-star-inserted"><i _ngcontent-ng-c147998405="" class="icon-check"></i></div><!----><!---->
+                                                                </et-select-body-option><et-select-body-option _ngcontent-ng-c2653434329="" class="payment-option ng-star-inserted" _nghost-ng-c147998405="" automation-deposit-payment-option-dropdown-option="8">
+                                                                    <div _ngcontent-ng-c147998405="" class="option-left-icon et-padding-end-s"></div><img _ngcontent-ng-c2653434329="" class="po-logo-option ng-star-inserted" src="https://etoro-cdn.etorostatic.com/web-client/et/img/payments/payment-method-icon-themes/2022-redesign/8.svg" alt="Skrill"><!----><!----><!----><!----><!----><!---->
+                                                                    <div _ngcontent-ng-c147998405="" class="option-right-icon ng-star-inserted"></div><!---->
+                                                                </et-select-body-option><et-select-body-option _ngcontent-ng-c2653434329="" class="payment-option ng-star-inserted" _nghost-ng-c147998405="" automation-deposit-payment-option-dropdown-option="2">
+                                                                    <div _ngcontent-ng-c147998405="" class="option-left-icon et-padding-end-s"></div><!----><span _ngcontent-ng-c2653434329="" class="po-text-option ets-semi-bold ng-star-inserted"> Bank Transfer </span><!----><!----><!----><!----><!---->
+                                                                    <div _ngcontent-ng-c147998405="" class="option-right-icon ng-star-inserted"></div><!---->
+                                                                </et-select-body-option><et-select-body-option _ngcontent-ng-c2653434329="" class="payment-option ng-star-inserted" _nghost-ng-c147998405="" automation-deposit-payment-option-dropdown-option="6">
+                                                                    <div _ngcontent-ng-c147998405="" class="option-left-icon et-padding-end-s"></div><img _ngcontent-ng-c2653434329="" class="po-logo-option ng-star-inserted" src="https://etoro-cdn.etorostatic.com/web-client/et/img/payments/payment-method-icon-themes/2022-redesign/6.svg" alt="Neteller"><!----><!----><!----><!----><!----><!---->
+                                                                    <div _ngcontent-ng-c147998405="" class="option-right-icon ng-star-inserted"></div><!---->
+                                                                </et-select-body-option><!----><!----><!----><!----></et-select-body></div>
+                                                    </div>
+                                                </div><!---->
+                                            </div>
                                         </et-select><!----><!----></et-deposit-payment-method-dropdown-v2></div><!----><et-deposit-payment-method-form _ngcontent-ng-c2610036046="" automation-id="deposit-v2-deposit-payment-method-form" class="cmp-deposit-payment-method-form change-location-payment-form ng-star-inserted" _nghost-ng-c1406230211=""><!----><et-credit-card-v2 _ngcontent-ng-c1406230211="" _nghost-ng-c3641117842="" class="ng-star-inserted"><et-credit-card-pci-iframe-v2 _ngcontent-ng-c3641117842="" automation-id="credit-card-v2-credit-card-pci-iframe" class="cmp-credit-card-pci-iframe" _nghost-ng-c958328460="">
-                                            <div _ngcontent-ng-c958328460="" class="cmp-iframe-wrapper"><iframe _ngcontent-ng-c958328460="" automation-id="deposit-credit-card-iframe-v2" src="https://billing-pci.etoro.com/?culture=en-gb&amp;oauth_token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiNDI2NzgiLCJ0eXAiOiJKV1QiLCJjdHkiOiJKV1QifQ..mx7CQhgFpTbcJTJzjwuBQw.OlhVC9aTjoJC8TMCnaYIdH0k-_tq4HwWHVuBY-I4yuFWAKxhuV_5II1AYud0TZG8CVyN42BkliVoCdxt6ttf3fYjT6NGrO4pru8Cut8KOD_ws6F6o8YnsqDhmSx-innhchtBzMP0c2tfHrSN-jNsHyBt4uHe2e1gNT9MPBBeTHxDJTmArTSHbN1eQEJyyePhY1pIMVeYHkPytzHKC2JAcTz3F4uxSOG6YXSSRY3212mfmfGTpCIKmveqz1JZd28cKHGdcB8L4MoiQkwDkkWPQ0IESTqHTp1wLhS4sRnMSEoj1Egh8YS7IqsrREoSUK4uGInrMK9lBzvrEVkAsAOBfuMgAlJrf29qZZtC1juEBX3ExZGMZfeVaQctQ9TbYsbuuo9QO0O1j_XcIWPC7ck16c7V18LRunvSjSxGPhROhhSNRvaT882sWqP0dVEK4roje7uXNYgEH5shq0lt8RwXRwXLflrEyuc34NHTNaOZEGFUtCQsNDAeQgu43kU8a5Do9vT1IatFWa8qP6_8xrbIvnhdsaM0s5j0JdH50wvSYa1UAuCcze-AZtCF-30MKNJKWXR6Qccly31O2um8uw1wr-nVA09r4r2Fey7cz8coRuxRJ2SoQsw7YcgbeNYtql0PfvtWNoBm4OYkdEkObnrFUxaDZBfjEWfDnitZqgpRzUNRDRV6VYDyU8BajFsuhvTPf7dbkjfyES7sxs1_WoMNrKIEzyk0TSMVyJ8U4qMn350ybi3oHqkeVs7hupCZ5V_UVOtRbWqWAGeH_pZgkosTXoSW7WHlRvxaN89EHr7dgD-sRl-nTSLzwSzzpW82bJYVjuptHcZz0CCmcTCgQbk-hB3oK-MudZRq8hYdpMUnHj2OEs8UeFYyM9eOXWCHf2PIhVhMVwFOjy5qN76sj1CGa9XlrJITe2bcbFEdgE4pfA7MHA95csDbi2homWv1l-VKN-pXvYo0ANQ6_jjhAyN0P_VR_cj5JRYP52_8KHtzVG-UlCCyYCZ2GzfZ5yKkKdXSRTEM-4dX7Uei8Fym0vL5eNMC3IH732FUZppQOHbksEw0z5W8TtEN70hzbUw5dBWi4zwSl11-6rRF7nV3z3gQ_h6rokuaS8qp-UWH1aWc8W6RH65F-p2aelGGF8-ycFH67jfMsfg-S-06QR33dcHx7NlZqSW1jwCyR72fO_JtKbVfpzsCe6kc9TaL8FcjSzg1T9ukMRIWnjfXF95YdGX-fDUyOKyXnAQ-KnmjL9F_lR9csE8Ab8oM-6eUTJxVb5UzjmFCX1CO4WoeJfudAwBkInihbRxsAh0KCGZg9eKK24iQ7RFo6VVZeCsfydd4IZfoU8u3PnkTFaZhwDCcopU_l1f0SAz_UwH234HSZ7YAx-GshA2sItHDHcSOXYDfK9jUHMXSSci1z4Pn0j5eYPsZGbxNji4QFlyURSaN2UglgE47zK0jWq4cp8-D8IqvcNol.-K6swDa1U9jqUh_f9NrBrF8GrqKdABluoLRTJWpiZVg&amp;isV3=true&amp;theme=light" style="height: 75px;"></iframe></div>
+                                            <div _ngcontent-ng-c958328460="" class="cmp-iframe-wrapper">
+                                                <div id="cardCreate" class="card-create" style="opacity: 1; display: block;">
+                                                    <div class="card-create-header">
+                                                        <div id="buttonGoToCardSelect" class="card-create-button" automation-id="card-create-button">
+                                                            <img class="card-create-button-icon" src="../../Images/icon-arrow-left.svg">
+
+                                                            <div class="card-create-button-text" data-translation="myCards">My Cards</div>
+                                                        </div>
+
+                                                        <div id="cardIcons" class="card-create-all-logos" automation-id="card-create-all-logos" style="opacity: 1; visibility: visible;">
+                                                            <img class="card-create-all-logos-item" src="https://etoro-cdn.etorostatic.com/web-client/et/img/payments/payment-method-icon/credit-card/1.svg"><img class="card-create-all-logos-item" src="https://etoro-cdn.etorostatic.com/web-client/et/img/payments/payment-method-icon/credit-card/2.svg"><img class="card-create-all-logos-item" src="https://etoro-cdn.etorostatic.com/web-client/et/img/payments/payment-method-icon/credit-card/8.svg">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-create-form">
+                                                        <div class="card-create-form-input-wrapper">
+                                                            <input id="pan" class="pci-input card-create-form-input-pan js-input-can-be-reset" automation-id="card-create-input-pan" type="tel" maxlength="23" placeholder="Card Number" onkeyup="GetDeboundOnKeyUp();" onblur="MarkDirty('pan'); InitValidation('pan', false, true);">
+
+                                                            <img id="ccType" class="card-create-matched-logo" automation-id="card-create-matched-logo" style="opacity: 0; display: inline; visibility: hidden;">
+                                                        </div>
+
+                                                        <div class="card-create-form-input-wrapper">
+                                                            <input id="expDate" class="pci-input card-create-form-input-exp-date js-input-can-be-reset" automation-id="card-create-input-exp-date" type="tel" maxlength="7" placeholder="MM / YY" onkeyup="ManageKeyUp('expDate');" onblur="MarkDirty('expDate'); InitValidation('exp', false, true);">
+                                                        </div>
+
+                                                        <div class="card-create-form-input-wrapper">
+                                                            <input id="cvv2" class="pci-input js-cvv-input js-input-can-be-reset" automation-id="card-create-input-cvv" type="tel" maxlength="3" placeholder="CVV" onkeypress="return DisableAphaNumericInput(event);" onblur="MarkDirty('cvv2'); InitValidation('cvv', false, true);" onpaste="return preventPaste(event);">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="cardSelect" class="card-select">
+                                                    <div class="cards">
+                                                        <div class="card">
+                                                            <label class="card-item">
+                                                                <div class="card-item-left">
+                                                                    <input class="pci-radio card-item-radio" type="radio" name="card-item-radio" automation-id="card-item-radio">
+
+                                                                    <img class="card-item-logo" automation-id="card-item-logo">
+
+                                                                    <div class="card-item-number">
+                                                                        <div class="card-item-number-masked">•••</div>
+                                                                        <div class="card-item-number-unmasked" automation-id="card-item-number-unmasked">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="card-item-cvv">
+                                                                        <input class="pci-input card-item-cvv-input js-cvv-input js-input-can-be-reset" type="tel" maxlength="3" placeholder="CVV" automation-id="card-item-cvv-input" onkeypress="return DisableAphaNumericInput(event);" onblur="InitValidation('cvv', false, true);" onpaste="return preventPaste(event);">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="card-item-right">
+                                                                    <img class="card-item-button-remove" src="../../Images/icon-trash.svg" automation-id="card-item-button-remove">
+                                                                </div>
+                                                            </label>
+
+                                                            <div class="card-remove">
+                                                                <div class="card-remove-text" automation-id="card-remove-text" data-translation="removeText">Are you certain you want to remove this card from the list? Please keep in mind that if you have any recurring orders associated with this card, they will be canceled as well.</div>
+
+                                                                <div class="card-remove-buttons">
+                                                                    <button class="card-remove-button-cancel" automation-id="card-remove-button-cancel" data-translation="cancelButton">Cancel</button>
+
+                                                                    <button class="card-remove-button-confirm" automation-id="card-remove-button-confirm" data-translation="removeButton">Confirm Remove</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div id="buttonGoToCardCreate" class="card-select-button" automation-id="card-select-button">
+                                                        <img class="card-select-button-icon" src="../../Images/icon-card-create.svg">
+
+                                                        <div class="card-select-button-text" data-translation="addNewCard">Add a new card</div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </et-credit-card-pci-iframe-v2><et-deposit-billing-details-v2 _ngcontent-ng-c3641117842="" automation-id="credit-card-v2-deposit-billing-details" _nghost-ng-c2750577280=""><!---->
                                             <div _ngcontent-ng-c2750577280="" class="cmp-form ng-untouched ng-pristine ng-invalid"><et-n-input _ngcontent-ng-c2750577280="" class="cmp-form-input" _nghost-ng-c2365232974="">
                                                     <div _ngcontent-ng-c2365232974="" class="input-wrapper invalid">

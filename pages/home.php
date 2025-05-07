@@ -1180,9 +1180,9 @@
                 <!---->
                 <!---->
                 <div _ngcontent-ng-c705146729=""
-                    class="page-columns-container et-flex ng-tns-c705146729-3">
+                    class="page-columns-container et-flex ng-tns-c705146729-3 sm:flex-col">
                     <section _ngcontent-ng-c705146729=""
-                        class="feed-column-container et-flex-column ng-tns-c705146729-3">
+                        class="feed-column-container et-flex-column ng-tns-c705146729-3  sm:w-full">
                         <et-home-above-feed-group _ngcontent-ng-c705146729=""
                             _nghost-ng-c3296901248=""
                             class="ng-tns-c705146729-3 ng-star-inserted">
@@ -6432,7 +6432,7 @@
                         <!---->
                     </section>
                     <section _ngcontent-ng-c705146729=""
-                        class="sticky-side-container ng-tns-c705146729-3"
+                        class="sticky-side-container ng-tns-c705146729-3 sm:w-full"
                         style="top: -129px">
                         <et-home-account-insights-group
                             _ngcontent-ng-c705146729=""

@@ -101,3 +101,5 @@
     </et-layout-footer>
     <!---->
 </footer>
+
+<?php require 'script.php'; ?>

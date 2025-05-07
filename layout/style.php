@@ -150,640 +150,6 @@
 </style>
 
 <style>
-    @media (max-width: 767px) {
-        .et-layout-sub-sticky-header {
-            transition: transform var(--et-layout-header-animation-speed);
-        }
-
-        .layout-header-sticky.layout-header-hidden[_ngcontent-ng-c1272297247] .et-layout-sub-sticky-header {
-            animation: subHeaderUp var(--et-layout-header-animation-speed) forwards;
-        }
-
-        .layout-header-sticky.layout-header-hidden[_nghost-ng-c1272297247] .et-layout-sub-sticky-header,
-        .layout-header-sticky.layout-header-hidden [_nghost-ng-c1272297247] .et-layout-sub-sticky-header {
-            animation: subHeaderUp var(--et-layout-header-animation-speed) forwards;
-        }
-
-        .layout-header-sticky[_ngcontent-ng-c1272297247]:not(.layout-header-hidden) .et-layout-sub-sticky-header {
-            animation: subHeaderDown var(--et-layout-header-animation-speed) forwards;
-        }
-
-        .layout-header-sticky:not(.layout-header-hidden)[_nghost-ng-c1272297247] .et-layout-sub-sticky-header,
-        .layout-header-sticky:not(.layout-header-hidden) [_nghost-ng-c1272297247] .et-layout-sub-sticky-header {
-            animation: subHeaderDown var(--et-layout-header-animation-speed) forwards;
-        }
-    }
-
-    .app-header[_ngcontent-ng-c1272297247] {
-        background: var(--neutral-secondary-bg);
-        height: 70px;
-        width: 100%;
-        position: fixed;
-        padding: 0 30px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        z-index: 99;
-    }
-
-    @media screen and (max-width: 740px) {
-        .app-header.mobile-off[_ngcontent-ng-c1272297247] {
-            display: none;
-        }
-    }
-
-    .app-header.app-header-demo-mode[_ngcontent-ng-c1272297247] {
-        background-color: #3c85b7;
-        border-color: #0e4063;
-    }
-
-    .app-header[_ngcontent-ng-c1272297247] .app-header-logo[_ngcontent-ng-c1272297247] {
-        display: inline-block;
-        height: 70px;
-        width: 105px;
-        cursor: pointer;
-    }
-
-    .app-header[_ngcontent-ng-c1272297247] .app-header-logo.white[_ngcontent-ng-c1272297247] {
-        background: url(/assets/etoro-cdn.etorostatic.com/web-client/img/logo-white.png) no-repeat;
-    }
-
-    .app-header[_ngcontent-ng-c1272297247] .app-header-logo.green[_ngcontent-ng-c1272297247] {
-        background: url(/assets/etoro-cdn.etorostatic.com/web-client/img/login-logo-hd.png) no-repeat;
-        background-size: 105px auto;
-        background-position: center;
-    }
-
-    .app-header[_ngcontent-ng-c1272297247] .app-header-buttons-wrapper[_ngcontent-ng-c1272297247] {
-        color: var(--primary-neutral-text);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-    }
-
-    .sub-template-main-view[_ngcontent-ng-c1272297247] {
-        position: absolute;
-        bottom: 0;
-        top: 70px;
-        left: 0;
-        right: 0;
-        height: calc(100% - 70px);
-    }
-
-    @media screen and (max-width: 740px) {
-        .sub-template-main-view[_ngcontent-ng-c1272297247] {
-            position: static;
-            height: 100%;
-        }
-    }
-
-    .language-picker-container[_ngcontent-ng-c1272297247] {
-        position: relative;
-    }
-
-    .language-picker-container[_ngcontent-ng-c1272297247] et-language-switcher-menu[_ngcontent-ng-c1272297247] {
-        position: absolute;
-        top: 20px;
-        display: none;
-        width: 200px;
-        height: 300px;
-        overflow: auto;
-        background: var(--neutral-secondary-bg);
-    }
-
-    .language-picker-container[_ngcontent-ng-c1272297247]:hover et-language-switcher-menu[_ngcontent-ng-c1272297247] {
-        display: block;
-    }
-
-    .container-level1[_ngcontent-ng-c1272297247] {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-    }
-
-    .rtl-direction[_nghost-ng-c1272297247] .container-level1[_ngcontent-ng-c1272297247],
-    .rtl-direction [_nghost-ng-c1272297247] .container-level1[_ngcontent-ng-c1272297247] {
-        direction: rtl;
-    }
-
-    @media (min-width: 1365px) {
-        .container-level1[_ngcontent-ng-c1272297247] {
-            --layout-sidenav-expanded-container-width: 340px;
-            --layout-sidenav-expanded-body-width: 100%;
-            --layout-sidenav-collapsed-container-width: 80px;
-            --layout-sidenav-collapsed-body-width: 100%;
-            --layout-sidenav-expanded-collapsed-ratio: 4.25;
-            --layout-sidenav-expanded-minus-collapsed-size: 260px;
-        }
-    }
-
-    @media (min-width: 1024px) and (max-width: 1364px) {
-        .container-level1[_ngcontent-ng-c1272297247] {
-            --layout-sidenav-expanded-container-width: 70px;
-            --layout-sidenav-expanded-body-width: 340px;
-            --layout-sidenav-collapsed-container-width: 70px;
-            --layout-sidenav-collapsed-body-width: 100%;
-            --layout-sidenav-expanded-collapsed-ratio: calc(340 / 70);
-            --layout-sidenav-expanded-minus-collapsed-size: 270px;
-        }
-    }
-
-    @media (min-width: 741px) and (max-width: 1023px) {
-        .container-level1[_ngcontent-ng-c1272297247] {
-            --layout-sidenav-expanded-container-width: 340px;
-            --layout-sidenav-expanded-body-width: 100%;
-            --layout-sidenav-collapsed-container-width: 340px;
-            --layout-sidenav-collapsed-body-width: 100%;
-        }
-    }
-
-    @media (max-width: 767px) {
-        .container-level1[_ngcontent-ng-c1272297247] {
-            --layout-sidenav-expanded-container-width: 100%;
-            --layout-sidenav-expanded-body-width: 100%;
-            --layout-sidenav-collapsed-container-width: 100%;
-            --layout-sidenav-collapsed-body-width: 100%;
-        }
-    }
-
-    .layout-pushdown-banner[_ngcontent-ng-c1272297247] {
-        position: relative;
-        z-index: 2;
-    }
-
-    .layout-pushdown-banner[_ngcontent-ng-c1272297247] et-layout-pushdown-banner[_ngcontent-ng-c1272297247] {
-        display: block;
-    }
-
-    .container-level2[_ngcontent-ng-c1272297247] {
-        --et-layout-sidenav-state-container-width: var(--layout-sidenav-expanded-container-width);
-        position: relative;
-        z-index: 1;
-        display: flex;
-        width: 100%;
-        height: 100%;
-    }
-
-    @media (max-width: 1023px) {
-        .container-level2[_ngcontent-ng-c1272297247] {
-            --et-layout-sidenav-state-container-width: 0px;
-        }
-    }
-
-    .container-level2.layout-sidenav-collapsed[_ngcontent-ng-c1272297247] {
-        --et-layout-sidenav-state-container-width: var(--layout-sidenav-collapsed-container-width);
-    }
-
-    @media (max-width: 1023px) {
-        .container-level2.layout-sidenav-collapsed[_ngcontent-ng-c1272297247] {
-            --et-layout-sidenav-state-container-width: 0px;
-        }
-    }
-
-    .container-level2.layout-sidenav-animation-running[_ngcontent-ng-c1272297247] {
-        overflow: hidden;
-    }
-
-    .container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] {
-        width: var(--layout-sidenav-expanded-container-width);
-        height: 100%;
-        flex: 0 0 auto;
-    }
-
-    .layout-sidenav-collapse-animation-step1.container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] {
-        z-index: 5;
-        animation: _ngcontent-ng-c1272297247_collapseSideNav var(--et-layout-sidenav-animation-speed) forwards;
-        --sidenav--animation-translateX: calc(-100% + var(--layout-sidenav-collapsed-container-width));
-    }
-
-    .rtl-direction[_nghost-ng-c1272297247] .layout-sidenav-collapse-animation-step1.container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247],
-    .rtl-direction [_nghost-ng-c1272297247] .layout-sidenav-collapse-animation-step1.container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] {
-        --sidenav--animation-translateX: calc(calc(-100% + var(--layout-sidenav-collapsed-container-width)) * -1);
-    }
-
-    @media (min-width: 1024px) and (max-width: 1364px) {
-        .layout-sidenav-collapse-animation-step1.container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] {
-            --sidenav--animation-translateX: calc((var(--layout-sidenav-expanded-body-width) - var(--layout-sidenav-collapsed-container-width)) * -1);
-        }
-
-        .rtl-direction[_nghost-ng-c1272297247] .layout-sidenav-collapse-animation-step1.container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247],
-        .rtl-direction [_nghost-ng-c1272297247] .layout-sidenav-collapse-animation-step1.container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] {
-            --sidenav--animation-translateX: calc(calc((var(--layout-sidenav-expanded-body-width) - var(--layout-sidenav-collapsed-container-width)) * -1) * -1);
-        }
-    }
-
-    @keyframes _ngcontent-ng-c1272297247_collapseSideNav {
-        to {
-            transform: translate(var(--sidenav--animation-translateX));
-        }
-    }
-
-    .layout-sidenav-collapsed.container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] {
-        width: var(--layout-sidenav-collapsed-container-width);
-    }
-
-    @media (max-width: 1023px) {
-
-        .ltr-direction[_nghost-ng-c1272297247] .layout-sidenav-opened.container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247],
-        .ltr-direction [_nghost-ng-c1272297247] .layout-sidenav-opened.container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] {
-            transform: translate(0.001%);
-        }
-
-        .rtl-direction[_nghost-ng-c1272297247] .layout-sidenav-opened.container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247],
-        .rtl-direction [_nghost-ng-c1272297247] .layout-sidenav-opened.container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] {
-            transform: translate(-0.001%);
-        }
-    }
-
-    @media (max-width: 1023px) {
-        .container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] {
-            position: fixed;
-            height: calc(100% - var(--et-layout-position-top-start));
-            z-index: 4;
-            transition: transform 0.3s;
-        }
-
-        .ltr-direction[_nghost-ng-c1272297247] .container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247],
-        .ltr-direction [_nghost-ng-c1272297247] .container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] {
-            left: 0;
-        }
-
-        .rtl-direction[_nghost-ng-c1272297247] .container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247],
-        .rtl-direction [_nghost-ng-c1272297247] .container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] {
-            right: 0;
-        }
-
-        .layout-resizing-in-progress.container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] {
-            transition: none;
-        }
-
-        .ltr-direction[_nghost-ng-c1272297247] .container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247],
-        .ltr-direction [_nghost-ng-c1272297247] .container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] {
-            transform: translate(-100%);
-        }
-
-        .rtl-direction[_nghost-ng-c1272297247] .container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247],
-        .rtl-direction [_nghost-ng-c1272297247] .container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] {
-            transform: translate(100%);
-        }
-    }
-
-    .container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] et-layout-sidenav[_ngcontent-ng-c1272297247] {
-        z-index: 5;
-        transform: translateZ(0);
-        width: var(--layout-sidenav-expanded-body-width);
-    }
-
-    .layout-sidenav-collapsed.container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] et-layout-sidenav[_ngcontent-ng-c1272297247] {
-        width: var(--layout-sidenav-collapsed-body-width);
-    }
-
-    .layout-sidenav-expand-animation-step1.container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] et-layout-sidenav[_ngcontent-ng-c1272297247] {
-        width: var(--layout-sidenav-collapsed-container-width);
-    }
-
-    .container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-
-    @keyframes _ngcontent-ng-c1272297247_collapseContainer {
-        to {
-            transform: translate(var(--collapse-container-translateX));
-        }
-    }
-
-    @keyframes _ngcontent-ng-c1272297247_expandContainer {
-        to {
-            transform: translate(var(--expand-container-translateX));
-        }
-    }
-
-    @media (min-width: 1365px) {
-        .layout-sidenav-collapse-animation-step1.container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] {
-            flex: 0 0 auto;
-            width: calc(100% - var(--layout-sidenav-collapsed-container-width));
-            animation: _ngcontent-ng-c1272297247_collapseContainer var(--et-layout-sidenav-animation-speed) forwards;
-            --collapse-container-translateX: calc(var(--layout-sidenav-expanded-minus-collapsed-size) * -1);
-        }
-
-        .rtl-direction[_nghost-ng-c1272297247] .layout-sidenav-collapse-animation-step1.container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247],
-        .rtl-direction [_nghost-ng-c1272297247] .layout-sidenav-collapse-animation-step1.container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] {
-            --collapse-container-translateX: calc(calc(var(--layout-sidenav-expanded-minus-collapsed-size) * -1) * -1);
-        }
-    }
-
-    @media (min-width: 1365px) {
-        .layout-sidenav-expand-animation-step1.container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] {
-            width: calc(100% - var(--layout-sidenav-expanded-container-width));
-            animation: _ngcontent-ng-c1272297247_expandContainer var(--et-layout-sidenav-animation-speed) forwards;
-            --expand-container-translateX: var(--layout-sidenav-expanded-minus-collapsed-size);
-        }
-
-        .rtl-direction[_nghost-ng-c1272297247] .layout-sidenav-expand-animation-step1.container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247],
-        .rtl-direction [_nghost-ng-c1272297247] .layout-sidenav-expand-animation-step1.container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] {
-            --expand-container-translateX: calc(var(--layout-sidenav-expanded-minus-collapsed-size) * -1);
-        }
-    }
-
-    @media (min-width: 1024px) and (max-width: 1364px) {
-        .container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .container-overlay[_ngcontent-ng-c1272297247] {
-            display: none;
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            z-index: 4;
-            background: rgba(var(--rgb-neutral-100), 0.2);
-            transition: opacity var(--et-layout-sidenav-animation-speed);
-        }
-
-        .layout-sidenav-expanded.container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .container-overlay[_ngcontent-ng-c1272297247],
-        .layout-sidenav-animation-running.container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .container-overlay[_ngcontent-ng-c1272297247] {
-            display: block;
-        }
-
-        .layout-sidenav-expand-animation-step1.container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .container-overlay[_ngcontent-ng-c1272297247] {
-            opacity: 0;
-        }
-
-        .layout-sidenav-expand-animation-step2.container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .container-overlay[_ngcontent-ng-c1272297247],
-        .layout-sidenav-collapse-animation-step1.container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .container-overlay[_ngcontent-ng-c1272297247] {
-            opacity: 1;
-        }
-
-        .layout-sidenav-collapse-animation-step2.container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .container-overlay[_ngcontent-ng-c1272297247] {
-            opacity: 0;
-        }
-    }
-
-    .container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .header[_ngcontent-ng-c1272297247] {
-        height: var(--et-layout-header-height);
-        flex-shrink: 0;
-        width: 100%;
-        position: relative;
-        z-index: 2;
-        background-color: var(--neutral-secondary-bg);
-    }
-
-    @media (max-width: 767px) {
-        .container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .header[_ngcontent-ng-c1272297247] {
-            transition: transform var(--et-layout-header-animation-speed);
-        }
-
-        .layout-header-sticky.container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .header[_ngcontent-ng-c1272297247] {
-            position: fixed;
-            z-index: 3;
-            top: var(--et-layout-position-top-start);
-            animation: headerShow var(--et-layout-header-animation-speed) forwards;
-        }
-
-        .layout-header-sticky.layout-header-hidden.container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .header[_ngcontent-ng-c1272297247] {
-            animation: headerHide var(--et-layout-header-animation-speed) forwards;
-        }
-
-        @keyframes headerShow {
-            0% {
-                transform: translateY(-100%);
-            }
-
-            to {
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes headerHide {
-            0% {
-                transform: translateY(0);
-            }
-
-            to {
-                transform: translateY(-100%);
-            }
-        }
-    }
-
-    .container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .header[_ngcontent-ng-c1272297247] et-layout-header[_ngcontent-ng-c1272297247] {
-        transform: translateZ(0);
-    }
-
-    .container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .page-content[_ngcontent-ng-c1272297247] {
-        flex: 1;
-        height: 100%;
-        overflow: hidden;
-        z-index: 1;
-        direction: ltr;
-    }
-
-    .container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .page-content[_ngcontent-ng-c1272297247] .layout-main-view[_ngcontent-ng-c1272297247] {
-        height: 100%;
-        position: relative;
-    }
-
-    .container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .et-layout-scrollable-page {
-        height: 100%;
-        overflow-y: auto;
-        -webkit-overflow-scrolling: touch;
-        overflow-x: hidden;
-    }
-
-    .layout-page-scroll-disabled.container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .et-layout-scrollable-page {
-        overflow: hidden;
-    }
-
-    @media (min-width: 768px) {
-        .container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .et-layout-scrollable-page.vertical-scroll {
-            overflow-y: scroll;
-        }
-    }
-
-    @media (max-width: 767px) {
-        .layout-header-sticky.container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .et-layout-scrollable-page {
-            padding-top: var(--et-layout-header-height);
-        }
-    }
-
-    .container-level2[_ngcontent-ng-c1272297247] .container-level3[_ngcontent-ng-c1272297247] .page-footer[_ngcontent-ng-c1272297247] {
-        width: 100%;
-        z-index: 1;
-    }
-
-    .non-main-wrapper[_ngcontent-ng-c1272297247] {
-        height: 100%;
-    }
-
-    .container-level3[_ngcontent-ng-c1272297247] ui-layout,
-    .container-level3[_ngcontent-ng-c1272297247] ng-view {
-        display: block;
-        height: 100%;
-    }
-
-    .container-level3[_ngcontent-ng-c1272297247] .layout-new-router ui-layout,
-    .container-level3[_ngcontent-ng-c1272297247] .layout-new-router ng-view {
-        height: auto;
-    }
-
-    .layout-page-hidden[_nghost-ng-c1272297247] {
-        visibility: hidden;
-        opacity: 0;
-    }
-
-    .empty[_nghost-ng-c1272297247] {
-        display: block;
-        height: 100%;
-        overflow: auto;
-    }
-
-    .signup[_nghost-ng-c1272297247] {
-        height: 100%;
-        max-height: 100%;
-    }
-
-    .signup[_nghost-ng-c1272297247] ui-layout,
-    .signup[_nghost-ng-c1272297247] ng-view {
-        height: 100%;
-    }
-
-    .standalone[_nghost-ng-c1272297247] ui-layout {
-        display: block;
-        height: 100%;
-    }
-
-    .standalone[_nghost-ng-c1272297247] ng-view {
-        display: block;
-        height: 100%;
-        overflow: auto;
-    }
-
-    @media screen and (max-width: 740px) {
-        .standalone[_nghost-ng-c1272297247] ng-view {
-            overflow: hidden;
-        }
-    }
-
-    .standalone[_nghost-ng-c1272297247] .sub-template-main-view[_ngcontent-ng-c1272297247] {
-        top: 0;
-        height: 100%;
-    }
-
-    .procharts[_nghost-ng-c1272297247] .procharts[_ngcontent-ng-c1272297247]:after {
-        content: "ProCharts";
-        font-size: 14px;
-        position: absolute;
-        left: 140px;
-        bottom: 13px;
-        color: var(--secondary-neutral-text);
-        white-space: nowrap;
-    }
-
-    @media screen and (max-width: 740px) {
-        .procharts[_nghost-ng-c1272297247] .sub-template-main-view[_ngcontent-ng-c1272297247] {
-            position: absolute;
-        }
-
-        .procharts[_nghost-ng-c1272297247] .app-header[_ngcontent-ng-c1272297247] {
-            padding: 0 20px;
-        }
-
-        .procharts[_nghost-ng-c1272297247] .i-head-button[_ngcontent-ng-c1272297247] {
-            height: 40px;
-            width: 40px;
-        }
-
-        .procharts[_nghost-ng-c1272297247] .porchart-icons.head-notification[_ngcontent-ng-c1272297247]:before {
-            top: 2px;
-            left: 7px;
-        }
-
-        .procharts[_nghost-ng-c1272297247] .title-mobile[_ngcontent-ng-c1272297247] {
-            text-align: center;
-            color: var(--primary-neutral-text);
-            font-weight: 300;
-            font-size: 22px;
-            margin: 0 auto;
-        }
-    }
-
-    .accountstatement[_nghost-ng-c1272297247] .app-header-logo[_ngcontent-ng-c1272297247]:after {
-        content: "Account statement";
-        font-size: 14px;
-        position: absolute;
-        left: 140px;
-        bottom: 18px;
-        color: var(--secondary-neutral-text);
-        white-space: nowrap;
-    }
-
-    @media screen and (max-width: 740px) {
-        .accountstatement[_nghost-ng-c1272297247] .sub-template-main-view[_ngcontent-ng-c1272297247] {
-            position: relative;
-            top: 0;
-            height: 100vh;
-        }
-
-        .accountstatement[_nghost-ng-c1272297247] .account-statment-header[_ngcontent-ng-c1272297247] {
-            position: absolute;
-            top: 25px;
-            right: 20px;
-            z-index: 1;
-        }
-
-        .accountstatement[_nghost-ng-c1272297247] .as-header-mobile[_ngcontent-ng-c1272297247] {
-            background: var(--neutral-secondary-bg);
-        }
-    }
-
-    .stockslending[_nghost-ng-c1272297247] .app-header-logo[_ngcontent-ng-c1272297247]:after {
-        content: "Stocks Lending";
-        font-size: 14px;
-        position: absolute;
-        left: 140px;
-        bottom: 18px;
-        color: var(--secondary-neutral-text);
-        white-space: nowrap;
-    }
-
-    .ets-mobile-sticky-panel[_ngcontent-ng-c1272297247] {
-        z-index: 3;
-    }
-
-    @media (min-width: 768px) {
-        et-layout-header[_ngcontent-ng-c1272297247]:not(.discovery-pages) {
-            border-bottom: solid 1px var(--tertiary-divider);
-        }
-    }
-
-    @media (min-width: 768px) {
-        et-layout-header.discovery-pages[_ngcontent-ng-c1272297247] {
-            border-bottom: solid 1px transparent;
-        }
-    }
-
-    .rtl-direction[_nghost-ng-c1272297247] .btn-gpt-nav-home[_ngcontent-ng-c1272297247],
-    .rtl-direction [_nghost-ng-c1272297247] .btn-gpt-nav-home[_ngcontent-ng-c1272297247] {
-        right: auto;
-        left: 20px;
-    }
-
-    .trade-button[_ngcontent-ng-c1272297247] {
-        display: block;
-        max-height: 100px;
-        transition: max-height 0.3s ease-in-out;
-    }
-
-    .hide-trade-button[_ngcontent-ng-c1272297247] {
-        max-height: 0;
-    }
-
-    .blur-background[_ngcontent-ng-c1272297247] {
-        filter: blur(9px);
-    }
-</style>
-<style>
     [_nghost-ng-c1294407219] {
         display: block;
         width: 100%;
@@ -4398,7 +3764,7 @@
         --feed-container-width: calc(var(--main-container-width) - var(--side-container-width) - var(--side-container-left-margin));
     }
 
-    @media (max-width: 1430px) {
+@media (max-width: 1430px) {
         .home-content-loader[_ngcontent-ng-c834465541] {
             --main-container-width: 980px;
             --side-container-width: 330px;
@@ -21185,12 +20551,12 @@
 
     @media (min-width: 1024px) and (max-width: 1364px) {
         .container-level1[_ngcontent-ng-c1272297247] {
-            --layout-sidenav-expanded-container-width: 70px;
+            /* --layout-sidenav-expanded-container-width: 70px;
             --layout-sidenav-expanded-body-width: 340px;
             --layout-sidenav-collapsed-container-width: 70px;
             --layout-sidenav-collapsed-body-width: 100%;
             --layout-sidenav-expanded-collapsed-ratio: calc(340 / 70);
-            --layout-sidenav-expanded-minus-collapsed-size: 270px
+            --layout-sidenav-expanded-minus-collapsed-size: 270px */
         }
     }
 
@@ -21332,7 +20698,25 @@
         .rtl-direction [_nghost-ng-c1272297247] .container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] {
             transform: translate(100%)
         }
+
+        .stage-text {
+            display: none
+        }
+
+        .sm\:flex-col {
+            flex-direction: column;
+        }
+
+        .sm\:w-full {
+            width: 100% !important;
+        }
     }
+
+   /*  @media (min-width: 1365px) {
+        #sidebar {
+            transform: initial;
+        }
+    } */
 
     .container-level2[_ngcontent-ng-c1272297247] .side-nav[_ngcontent-ng-c1272297247] et-layout-sidenav[_ngcontent-ng-c1272297247] {
         z-index: 5;
@@ -46593,3 +45977,457 @@
         direction: rtl
     }
 </style>
+
+<!-- etoro pci paymenent -->
+<style>
+    /* vars */
+    /* colors */
+    :root {
+        --white: #fff;
+        --black-2-c: #2c2c2c;
+        --gray-7: #777;
+        --gray-d-8: #d8d8d8;
+        --gray-e-d: #ededed;
+        --green-kelly: #3fb923;
+        --green-kelly-hover: #48c328;
+        --red-error-message: #d12d2d;
+        --button-secondary: #32374b;
+        --button-primary: #e8464a;
+    }
+
+    /* end colors */
+    /* end vars */
+
+    /* common */
+    html {
+        overflow: hidden;
+    }
+
+    body {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        font: normal 100%/1.5 'num', 'Open Sans', ariel, sans-serif !important;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    /* inputs */
+    input {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    input::-ms-clear {
+        display: none;
+    }
+
+    .pci-input {
+        width: 100%;
+        height: 32px;
+        padding: 0;
+        border: none;
+        border-bottom: 1px solid var(--gray-e-d);
+        background-color: var(--white);
+        font-size: 16px;
+        -webkit-appearance: none;
+        -moz-appearance: textfield;
+    }
+
+    .pci-radio {
+        width: 20px;
+        height: 20px;
+        border: 1px solid var(--green-kelly);
+        border-radius: 50%;
+        outline: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        -o-appearance: none;
+        appearance: none;
+    }
+
+    .pci-radio:hover {
+        box-shadow: 0 0 2px 0 var(--green-kelly) inset;
+    }
+
+    .pci-radio:before {
+        content: '';
+        display: block;
+        width: 70%;
+        height: 70%;
+        margin: 15% auto;
+        border-radius: 50%;
+    }
+
+    .pci-radio:checked:before {
+        background-color: var(--green-kelly);
+    }
+
+    /* end inputs */
+
+    /* loader */
+    .loader {
+        height: 50px;
+    }
+
+    .loader::before,
+    .loader::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 50px;
+        height: 50px;
+        margin-top: -25px;
+        margin-left: -25px;
+        background-position: center center;
+        background-size: 50px 50px;
+    }
+
+    .loader::after {
+        background-image: url('https://etoro-cdn.etorostatic.com/web-client/img/preloader.png');
+        animation: rotation .5s infinite linear;
+    }
+
+    .loader::before {
+        background-image: url('https://etoro-cdn.etorostatic.com/web-client/img/eToro.png');
+    }
+
+    @keyframes rotation {
+        from {
+            transform: rotate(0deg)
+        }
+
+        to {
+            transform: rotate(360deg)
+        }
+    }
+
+    /* end loader */
+    /* end common */
+
+    /* initial state */
+    .card-create,
+    .card-select {
+        display: none;
+    }
+
+    .card-create-button {
+        display: none;
+    }
+
+    .card {
+        visibility: hidden;
+    }
+
+    .card-item-cvv {
+        display: none;
+    }
+
+    .card-remove {
+        display: none;
+    }
+
+    /* end initial state */
+
+    /* styling */
+    /* card create */
+    .card-create-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6px 0 12px;
+    }
+
+    .card-create-button {
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .card-create-button-icon {
+        width: 6px;
+        margin-inline-end: 6px;
+    }
+
+    .card-create-button-text {
+        color: var(--green-kelly);
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .card-create-button-text:hover {
+        color: var(--green-kelly-hover);
+    }
+
+    .card-create-all-logos {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-inline-start: auto;
+    }
+
+    .card-create-all-logos-item {
+        flex-shrink: 0;
+        max-width: 34px;
+        height: 20px;
+        margin: 4px 2px 0 0;
+    }
+
+    .card-create-all-logos-item:last-child {
+        margin-right: 0;
+    }
+
+    .card-create-form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-create-form-input-wrapper {
+        position: relative;
+        flex-basis: 50%;
+    }
+
+    .card-create-form-input-wrapper:first-child {
+        flex-basis: 100%;
+    }
+
+    @media screen and (max-width: 480px) {
+        .card-create-form-input-wrapper:first-child {
+            margin-bottom: 18px;
+        }
+    }
+
+    @media screen and (min-width: 481px) {
+        .card-create-form-input-wrapper {
+            flex: 0 0 25%;
+        }
+
+        .card-create-form-input-wrapper:first-child {
+            flex: 0 0 50%;
+        }
+    }
+
+    .card-create-form-input-exp-date {
+        width: calc(100% - 12px);
+        margin-inline-end: 12px;
+    }
+
+    @media screen and (min-width: 481px) {
+        .card-create-form-input-pan {
+            width: calc(100% - 12px);
+            margin-inline-end: 12px;
+        }
+    }
+
+    .card-create-matched-logo {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        display: none;
+        max-width: 40px;
+        height: 32px;
+        margin-top: -16px;
+    }
+
+    @media screen and (min-width: 481px) {
+        .card-create-matched-logo {
+            right: 12px;
+        }
+    }
+
+    /* end card create */
+
+    /* card select */
+    .cards {
+        margin-bottom: 12px;
+    }
+
+    .card-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 32px;
+        padding: 6px 0;
+        cursor: pointer;
+    }
+
+    .card-item-left {
+        display: flex;
+        align-items: center;
+        margin-inline-end: 12px;
+    }
+
+    .card-item-radio,
+    .card-item-logo,
+    .card-item-number,
+    .card-item-cvv {
+        flex-shrink: 0;
+    }
+
+    .card-item-radio {
+        margin: 0 12px 0 0;
+    }
+
+    .card-item-logo {
+        width: 50px;
+        max-height: 32px;
+        margin-inline-end: 12px;
+    }
+
+    @media screen and (min-width: 481px) {
+        .card-item-logo {
+            margin-inline-end: 18px;
+        }
+    }
+
+    .card-item-number {
+        display: flex;
+        align-items: center;
+        margin-inline-end: 12px;
+    }
+
+    @media screen and (min-width: 481px) {
+        .card-item-number {
+            margin-inline-end: 34px;
+        }
+    }
+
+    .card-item-number-masked {
+        margin-inline-end: 4px;
+        color: var(--gray-d-8);
+        font-size: 26px;
+        line-height: 16px;
+        letter-spacing: 2px;
+    }
+
+    .card-item-number-unmasked {
+        color: var(--black-2-c);
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .card-item-cvv-input {
+        max-width: 60px;
+    }
+
+    .card-item-cvv-input::-webkit-input-placeholder {
+        text-align: center;
+    }
+
+    .card-item-cvv-input::-moz-placeholder {
+        text-align: center;
+    }
+
+    .card-item-cvv-input:-ms-input-placeholder {
+        text-align: center;
+    }
+
+    .card-item-right {
+        display: flex;
+        align-items: center;
+    }
+
+    .card-item-button-remove {
+        flex-shrink: 0;
+        width: 30px;
+    }
+
+    /* card-remove */
+    .card-remove {
+        position: relative;
+        margin-top: 12px;
+    }
+
+    .card-remove-text {
+        margin-bottom: 24px;
+        color: var(--gray-7);
+        font-size: 14px;
+    }
+
+    .card-remove-buttons {
+        display: flex;
+        align-items: center;
+    }
+
+    .card-remove-button-cancel,
+    .card-remove-button-confirm {
+        width: 150px;
+        height: 35px;
+        padding: 6px 12px;
+        border-radius: 4px;
+        font-size: 12px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    @media screen and (min-width: 481px) {
+
+        .card-remove-button-cancel,
+        .card-remove-button-confirm {
+            font-size: 14px;
+        }
+    }
+
+    .card-remove-button-cancel:hover,
+    .card-remove-button-confirm:hover {
+        opacity: .9;
+    }
+
+    .card-remove-button-cancel {
+        margin-right: 12px;
+        border: 1px solid var(--button-secondary);
+        background-color: var(--white);
+        color: var(--button-secondary);
+    }
+
+    .card-remove-button-confirm {
+        border: 1px solid var(--button-primary);
+        background-color: var(--button-primary);
+        color: var(--white);
+    }
+
+    /* end card-remove */
+
+    .card-select-button {
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .card-select-button-icon {
+        width: 30px;
+        margin-inline-end: 3px;
+    }
+
+    .card-select-button-text {
+        color: var(--green-kelly);
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .card-select-button-text:hover {
+        color: var(--green-kelly-hover);
+    }
+
+    /* end card select */
+
+    /* errors */
+    .error {
+        padding-top: 12px;
+        font-size: 14px;
+        color: var(--red-error-message);
+    }
+
+    .error:empty {
+        padding-top: 0;
+    }
+
+    /* end errors */
+    /* end styling */
+</style>
+<!-- etoro pci paymenent end -->

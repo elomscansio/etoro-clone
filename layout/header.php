@@ -4,7 +4,7 @@
         _nghost-ng-c1927532596="">
         <div _ngcontent-ng-c1927532596="" class="layout-wrapper ng-star-inserted">
             <div _ngcontent-ng-c1927532596="" class="item">
-                <a _ngcontent-ng-c1927532596="" class="menu-button ng-star-inserted">
+                <a _ngcontent-ng-c1927532596="" class="menu-button ng-star-inserted" onclick="openSidebar()" href="#">
                     <div _ngcontent-ng-c1927532596="" class="menu-icon icon-navigation-menu">
                     </div>
                 </a>

@@ -1,4 +1,4 @@
-<div _ngcontent-ng-c1272297247=""
+<div id="sidebar" _ngcontent-ng-c1272297247=""
     class="side-nav ets-scroll-sidenav ets-hover-scroll ng-tns-c1272297247-0 ng-star-inserted " style="<?php echo ($nosidebar ? "display: none;" : ""); ?>">
     <et-layout-sidenav _ngcontent-ng-c1272297247="" _nghost-ng-c532554544=""
         class="ng-tns-c1272297247-0 ng-star-inserted">
@@ -10,7 +10,7 @@
                     class="expand-collapse-button collapse"
                     automation-id="sidenav-collapse-expand-button"></a><a
                     _ngcontent-ng-c532554544=""
-                    class="close-menu font-icon ets-icon-small ets-icon-close"
+                    class="close-menu font-icon ets-icon-small ets-icon-close" onclick="closeSidebar()"
                     automation-id="menu-layout-toggle-menu"></a>
             </div>
             <!---->
