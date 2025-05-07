@@ -10,7 +10,8 @@
     <!-- ngIf: :: data.referrer -->
     <!-- END META -->
     <?php require 'style.php'; ?>
-
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="/assets/custom/tailwind.3.4.16.js"></script>
     <meta charset="utf-8" />
 
     <meta name="viewport"
