@@ -1,8 +1,9 @@
 
 <?php
-$nosidebar = true;
-$noheader = true;
-$nofooter = true;
+$nosidebar = false;
+$noheader = false;
+$nofooter = false;
+$pageTitle = "Withdraw Funds";
 
 require 'layout/main.top.php';
 require 'pages/withdraw.php';

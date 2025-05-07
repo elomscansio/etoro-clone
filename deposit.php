@@ -1,8 +1,9 @@
 
 <?php
-$nosidebar = true;
-$noheader = true;
-$nofooter = true;
+$nosidebar = false;
+$noheader = false;
+$nofooter = false;
+$pageTitle = "Wallet";
 
 require 'layout/main.top.php';
 require 'pages/deposit.php';

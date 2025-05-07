@@ -1596,7 +1596,7 @@
                                                             _nghost-ng-c258238721="">
                                                             <a _ngcontent-ng-c258238721=""
                                                                 class="avatar-ph ng-star-inserted"
-                                                                href="/assets/people/brandtangelika"><img
+                                                                href="/trader-detail-overview.php"><img
                                                                     _ngcontent-ng-c258238721=""
                                                                     loading="lazy"
                                                                     class="avatar"
@@ -1619,7 +1619,7 @@
                                                                     <a _ngcontent-ng-c3400718340=""
                                                                         automation-id="feed-post-title-tagged-user"
                                                                         class="post-user-name ets-link-tertiary ets-semi-bold ets-plain-text"
-                                                                        href="/assets/people/brandtangelika">@BrandtAngelika
+                                                                        href="/trader-detail-overview.php">@BrandtAngelika
                                                                     </a>
                                                                     <!---->
                                                                     <!---->

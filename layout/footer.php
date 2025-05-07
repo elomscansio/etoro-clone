@@ -19,7 +19,7 @@
                         <li _ngcontent-ng-c223749014="">
                             <a _ngcontent-ng-c223749014=""
                                 automation-id="mobile-bottom-navigation-home"
-                                href="/assets/home" class="icon-link clicked-page" style="
+                                href="/" class="icon-link  <?php echo $pageTitle == "Home" ? "clicked-page" : "";?>" style="
                                 touch-action: none;
                                 user-select: none;
                                 -webkit-user-drag: none;
@@ -34,7 +34,7 @@
                         <li _ngcontent-ng-c223749014="">
                             <a _ngcontent-ng-c223749014=""
                                 automation-id="mobile-bottom-navigation-watchlist"
-                                href="/assets/watchlists" class="icon-link" style="
+                                href="/watchlist.php" class="icon-link  <?php echo $pageTitle == "Watchlist" ? "clicked-page" : "";?>" style="
                                 touch-action: none;
                                 user-select: none;
                                 -webkit-user-drag: none;
@@ -49,7 +49,7 @@
                         <li _ngcontent-ng-c223749014="">
                             <a _ngcontent-ng-c223749014=""
                                 automation-id="mobile-bottom-navigation-portfolio"
-                                href="/assets/app/portfolio-page" class="icon-link" style="
+                                href="/cashflow.php" class="icon-link  <?php echo $pageTitle == "Portfolio" ? "clicked-page" : "";?>" style="
                                 touch-action: none;
                                 user-select: none;
                                 -webkit-user-drag: none;
@@ -65,7 +65,7 @@
                             class="intercom-discovery-btn ng-star-inserted">
                             <a _ngcontent-ng-c223749014=""
                                 automation-id="mobile-bottom-navigation-discover"
-                                class="icon-link" href="/assets/discover" style="
+                                class="icon-link  <?php echo $pageTitle == "Discover" ? "clicked-page" : "";?>" href="/discover-overview.php" style="
                                 touch-action: none;
                                 user-select: none;
                                 -webkit-user-drag: none;
@@ -82,7 +82,7 @@
                         <li _ngcontent-ng-c223749014="" class="ng-star-inserted">
                             <!----><a _ngcontent-ng-c223749014=""
                                 automation-id="mobile-bottom-navigation-wallet"
-                                href="/assets/wallet" class="icon-link" style="
+                                href="/wallet.php" class="icon-link  <?php echo $pageTitle == "Wallet" ? "clicked-page" : "";?>" style="
                                 touch-action: none;
                                 user-select: none;
                                 -webkit-user-drag: none;

@@ -5,10 +5,12 @@
         <aside _ngcontent-ng-c532554544="" class="nav-all expanded ng-star-inserted"
             automation-id="menu-layout">
             <div _ngcontent-ng-c532554544="" class="nav-top" automation-id="menu-layout-head-clone">
-                <a _ngcontent-ng-c532554544="" href="/assets/" class="top-logo animation-type-fade"
-                    automation-id="sidenav-logo"></a><a _ngcontent-ng-c532554544=""
+                <a _ngcontent-ng-c532554544="" href="#" class="top-logo animation-type-fade"
+                    automation-id="sidenav-logo"></a>
+                    <!-- <a _ngcontent-ng-c532554544=""
                     class="expand-collapse-button collapse"
-                    automation-id="sidenav-collapse-expand-button"></a><a
+                    automation-id="sidenav-collapse-expand-button"></a> -->
+                    <a
                     _ngcontent-ng-c532554544=""
                     class="close-menu font-icon ets-icon-small ets-icon-close" onclick="closeSidebar()"
                     automation-id="menu-layout-toggle-menu"></a>
@@ -70,8 +72,8 @@
                         <li _ngcontent-ng-c532554544=""
                             class="list-item list1-item home animation-type-move"
                             automation-id="sidenav-home">
-                            <a _ngcontent-ng-c532554544="" class="menu-item active"
-                                href="/assets/home" automation-id="sidenav-menu-home"><span
+                            <a _ngcontent-ng-c532554544="" class="menu-item <?php echo $pageTitle == "Home" ? "active" : "" ?>"
+                                href="/" automation-id="sidenav-menu-home"><span
                                     _ngcontent-ng-c532554544=""
                                     class="icon font-icon ets-icon-medium"></span><span
                                     _ngcontent-ng-c532554544="" class="text">Home</span>
@@ -86,8 +88,8 @@
                         <li _ngcontent-ng-c532554544=""
                             class="list-item list1-item watchlist animation-type-move"
                             automation-id="sidenav-watchlist">
-                            <a _ngcontent-ng-c532554544="" class="menu-item"
-                                href="/assets/watchlists"
+                            <a _ngcontent-ng-c532554544="" class="menu-item <?php echo $pageTitle == "Watchlist" ? "active" : "" ?>"
+                                href="/watchlist.php"
                                 automation-id="sidenav-menu-watchlists"><span
                                     _ngcontent-ng-c532554544=""
                                     class="icon font-icon ets-icon-medium"
@@ -104,8 +106,8 @@
                         <li _ngcontent-ng-c532554544=""
                             class="list-item list1-item portfolio animation-type-move"
                             automation-id="sidenav-portfolio">
-                            <a _ngcontent-ng-c532554544="" class="menu-item"
-                                href="/assets/app/portfolio-page"
+                            <a _ngcontent-ng-c532554544="" class="menu-item <?php echo $pageTitle == "Portfolio" ? "active" : "" ?>"
+                                href="/cashflow.php"
                                 automation-id="sidenav-menu-portfolio"><span
                                     _ngcontent-ng-c532554544=""
                                     class="icon font-icon ets-icon-medium"
@@ -122,7 +124,7 @@
                         <li _ngcontent-ng-c532554544=""
                             class="list-item list1-item discovery animation-type-move intercom-discovery-btn"
                             automation-id="sidenav-discovery">
-                            <a _ngcontent-ng-c532554544="" class="menu-item" href="/assets/discover"
+                            <a _ngcontent-ng-c532554544="" class="menu-item <?php echo $pageTitle == "Discover" ? "active" : "" ?>" href="/discover-overview.php"
                                 automation-id="sidenav-menu-discovery"><span
                                     _ngcontent-ng-c532554544=""
                                     class="icon font-icon ets-icon-medium"></span><span
@@ -138,7 +140,7 @@
                         <li _ngcontent-ng-c532554544=""
                             class="list-item list1-item wallet animation-type-move ng-star-inserted"
                             automation-id="sidenav-wallet">
-                            <a _ngcontent-ng-c532554544="" class="menu-item" href="/assets/wallet"
+                            <a _ngcontent-ng-c532554544="" class="menu-item <?php echo $pageTitle == "Wallet" ? "active" : "" ?>" href="/wallet.php"
                                 automation-id="sidenav-menu-wallet-main"><span
                                     _ngcontent-ng-c532554544=""
                                     class="icon font-icon ets-icon-medium"></span><span
@@ -159,8 +161,8 @@
                         <li _ngcontent-ng-c532554544=""
                             class="list-item list2-item copy-trade animation-type-fade"
                             automation-id="sidenav-copy-trade">
-                            <a _ngcontent-ng-c532554544="" href="/assets/discover/people"
-                                class="menu-item" automation-id="sidenav-menu-people"><span
+                            <a _ngcontent-ng-c532554544="" href="/discover-copytrader.php"
+                                class="menu-item <?php echo $pageTitle == "Copy Trader" ? "active" : "" ?>" automation-id="sidenav-menu-people"><span
                                     _ngcontent-ng-c532554544=""
                                     class="icon font-icon animation-type-zoom ets-icon-copy-trader ets-icon-medium"
                                     automation-id="menu-layout-people-icon"></span><span
@@ -236,7 +238,7 @@
                         <li _ngcontent-ng-c532554544=""
                             class="list-item list2-item withdrawal animation-type-fade ng-star-inserted"
                             automation-id="sidenav-withdrawal">
-                            <a _ngcontent-ng-c532554544="" class="menu-item"
+                            <a href="/withdraw.php" _ngcontent-ng-c532554544="" class="menu-item <?php echo $pageTitle == "Withdraw Funds" ? "active" : "" ?>"
                                 automation-id="sidenav-menu-withdraw"><span
                                     _ngcontent-ng-c532554544=""
                                     class="icon font-icon ets-icon-withdrawal ets-icon-medium"
@@ -329,7 +331,7 @@
                         <li _ngcontent-ng-c532554544=""
                             class="list-item list2-item logout animation-type-fade ng-star-inserted"
                             automation-id="sidenav-logout">
-                            <a _ngcontent-ng-c532554544="" class="menu-item"
+                            <a _ngcontent-ng-c532554544="" class="menu-item <?php echo $pageTitle == "Logout" ? "active" : "" ?>"
                                 automation-id="sidenav-menu-logout"><span
                                     _ngcontent-ng-c532554544=""
                                     class="icon font-icon animation-type-zoom ets-icon-logout ets-icon-medium"
@@ -352,7 +354,7 @@
             </div>
             <div _ngcontent-ng-c532554544="" class="nav-bottom">
                 <div _ngcontent-ng-c532554544="" class="cta-box animation-type-fade">
-                    <a _ngcontent-ng-c532554544=""
+                    <a href="/deposit.php" _ngcontent-ng-c532554544=""
                         class="big-cta above-the-box deposit-btn ng-star-inserted"
                         automation-id="left-menu-deposit-button">
                         Deposit Funds</a>
