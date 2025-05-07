@@ -81,6 +81,8 @@
     <script type="text/javascript" async="" src="/assets/lenax.etoro.com/libs/mixpanel-2-latest.min.js"></script>
     <link rel="stylesheet" href="/assets/cdn.etorostatic.com/v651.677.5/css_files?p[]=styles/style.css" media="all"
         onload="this.media='all'" />
+    <link rel="stylesheet" href="/assets/cdn.etorostatic.com/v651.722.1/css_files?p[]=styles/style.css" media="all"
+        onload="this.media='all'" />
     <script src="/assets/cdn.etorostatic.com/statics/web-loader.a6ce65a02667e1e91d69.js" defer="" fetchpriority="high"
         crossorigin="anonymous"></script>
     <script src="/assets/cdn.etorostatic.com/statics/legacy-bundle.2dc9ea8c01784e418252.js" defer=""

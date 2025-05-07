@@ -1,0 +1,107 @@
+<et-user _nghost-ng-c2221439911="" class="ng-star-inserted"><et-copy-button _ngcontent-ng-c2221439911="" automation-id="fl-copy-button" class="hidden-copy-button ng-star-inserted" _nghost-ng-c4186398575=""><button _ngcontent-ng-c4186398575="" automation-id="copy-button-execution" class="et-copy-button ets-button-basic ets-button-primary ets-button-small"> Copy
+        </button></et-copy-button>
+    <div _ngcontent-ng-c2221439911="" etuilayoutpagescroll="" class="et-main-user-page-layout-container rtl-responsive overflow-scroll et-layout-scrollable-page ng-star-inserted"><a _ngcontent-ng-c2221439911="" class="user-top-anchor"></a><!----><!---->
+        <div _ngcontent-ng-c2221439911="" class="et-user-header-wrapper ng-star-inserted"><et-user-header _ngcontent-ng-c2221439911="" _nghost-ng-c3884472482="" class="ng-tns-c3884472482-426 ng-star-inserted">
+                <header _ngcontent-ng-c3884472482="" automation-id="user-head-wrapp" class="user-header-container et-bg-white ng-tns-c3884472482-426">
+                    <div _ngcontent-ng-c3884472482="" class="user-header-content-wrapper ng-tns-c3884472482-426"><et-breadcrumbs _ngcontent-ng-c3884472482="" isnewdesign="true" automation-id="user-header-breadcrumbs" _nghost-ng-c4029640666="" class="ng-tns-c3884472482-426 ng-star-inserted">
+                            <ul _ngcontent-ng-c4029640666="" itemscope="" itemtype="http://schema.org/BreadcrumbList" automation-id="user-head-breadcrumbs" class="head-breadcrumbs new-design">
+                                <li _ngcontent-ng-c4029640666="" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="crumb-item ng-star-inserted"><a _ngcontent-ng-c4029640666="" itemprop="item" class="crumb ng-star-inserted" href="/discover/people" automation-id="breadcrumbs-name-people"><span _ngcontent-ng-c4029640666="" itemprop="name">People</span></a><!----><!---->
+                                    <meta _ngcontent-ng-c4029640666="" itemprop="position" content="1">
+                                </li>
+                                <li _ngcontent-ng-c4029640666="" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="crumb-item ng-star-inserted"><a _ngcontent-ng-c4029640666="" itemprop="item" class="crumb ng-star-inserted" href="/discover/people/results?sort=-copiers&amp;country=100" automation-id="breadcrumbs-name-results?sort=-copiers&amp;country=100"><span _ngcontent-ng-c4029640666="" itemprop="name">Ireland</span></a><!----><!---->
+                                    <meta _ngcontent-ng-c4029640666="" itemprop="position" content="2">
+                                </li>
+                                <li _ngcontent-ng-c4029640666="" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="crumb-item ng-star-inserted"><a _ngcontent-ng-c4029640666="" itemprop="item" class="crumb ng-star-inserted" href="/people/hyjbrighter" automation-id="breadcrumbs-name-hyjbrighter"><span _ngcontent-ng-c4029640666="" itemprop="name">hyjbrighter</span></a><!----><!---->
+                                    <meta _ngcontent-ng-c4029640666="" itemprop="position" content="3">
+                                </li><!---->
+                            </ul>
+                        </et-breadcrumbs><!---->
+                        <div _ngcontent-ng-c3884472482="" class="user-header-content et-flex-between ng-tns-c3884472482-426">
+                            <div _ngcontent-ng-c3884472482="" class="user-info-container et-flex-between ng-tns-c3884472482-426">
+                                <div _ngcontent-ng-c3884472482="" class="user-avatar ng-tns-c3884472482-426"><img _ngcontent-ng-c3884472482="" automation-id="user-head-add-photo-button" class="et-avatar et-avatar-xl ng-tns-c3884472482-426" src="https://etoro-cdn.etorostatic.com/avatars/150X150/5120021/3.jpg" alt="Yujie Hehyjbrighter"><!----></div>
+                                <div _ngcontent-ng-c3884472482="" class="user-information et-flex-column et-flex-justify-center ng-tns-c3884472482-426">
+                                    <div _ngcontent-ng-c3884472482="" class="user-name-container et-flex-align-center et-font-xs ng-tns-c3884472482-426 bigger-name ng-star-inserted"><span _ngcontent-ng-c3884472482="" automation-id="user-header-full-name" class="user-full-name ets-bold ng-tns-c3884472482-426 ets-title-main ng-star-inserted">Yujie He </span><!----><!----><!----><!---->
+                                        <div _ngcontent-ng-c3884472482="" automation-id="user-header-pi-user-icon-star" class="star-icon-container ng-tns-c3884472482-426 ng-star-inserted"><et-pi-level-star _ngcontent-ng-c3884472482="" class="ng-tns-c3884472482-426" _nghost-ng-c4250290943="">
+                                                <div _ngcontent-ng-c4250290943="" class="pi-level-star pi-level-star--5 ng-star-inserted"><svg _ngcontent-ng-c4250290943="" xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15">
+                                                        <path _ngcontent-ng-c4250290943="" fill-rule="evenodd" d="M200 12L195.298 14.472 196.196 9.236 192.392 5.528 197.649 4.764 200 0 202.351 4.764 207.608 5.528 203.804 9.236 204.702 14.472z" transform="translate(-192)"></path>
+                                                    </svg></div><!---->
+                                            </et-pi-level-star></div><!----><!----><!----><!---->
+                                    </div><span _ngcontent-ng-c3884472482="" automation-id="user-header-username" class="user-name ng-tns-c3884472482-426 ets-plain-text ng-star-inserted">@hyjbrighter </span><!----><!----><!----><!---->
+                                </div>
+                            </div>
+                            <div _ngcontent-ng-c3884472482="" class="action-buttons et-flex-center ng-tns-c3884472482-426"><button _ngcontent-ng-c3884472482="" class="et-add-to-watchlist-button-expended et-button-positive-outline ng-tns-c3884472482-426 ng-star-inserted"><et-watchlist-quick-edit _ngcontent-ng-c3884472482="" automation-id="user-header-watchlist-button" class="ng-tns-c3884472482-426" _nghost-ng-c2417841587=""><et-select _ngcontent-ng-c2417841587="" class="no-arrow ng-tns-c206250979-443 ng-star-inserted" _nghost-ng-c206250979="">
+                                            <div _ngcontent-ng-c206250979="" class="ng-tns-c206250979-443"><et-select-header _ngcontent-ng-c2417841587="" automation-id="watchlists-quick-edit-btn-add" class="watchlists-edit ng-tns-c206250979-443 following" _nghost-ng-c3317408547="">
+                                                    <div _ngcontent-ng-c3317408547="" automation-id="select-header-text" class="header-text"></div><i _ngcontent-ng-c3317408547="" automation-id="select-header-icon-arrow-down" class="icon-arrow-down"></i><i _ngcontent-ng-c3317408547="" class="arrow-down"></i>
+                                                </et-select-header><!----></div><!----><!----><!---->
+                                        </et-select></et-watchlist-quick-edit><span _ngcontent-ng-c3884472482="" class="watchlist-button-placeholder ng-tns-c3884472482-426"></span></button><et-copy-button _ngcontent-ng-c3884472482="" automation-id="user-page-copy-button-container" btnclass="ets-button-big" _nghost-ng-c4186398575="" class="ng-tns-c3884472482-426 ng-star-inserted"><button _ngcontent-ng-c4186398575="" automation-id="copy-button-execution" class="et-copy-button ets-button-basic ets-button-big ets-button-primary"> Copy
+                                    </button></et-copy-button><!----><!----><!----><!----><et-select _ngcontent-ng-c2221439911="" isnewdropdownstyle="true" automation-id="my-user-actions-dropdown" class="no-icon select-header-icon ng-tns-c206250979-444 ng-star-inserted" _nghost-ng-c206250979="">
+                                    <div _ngcontent-ng-c206250979="" class="ng-tns-c206250979-444 new-dropdown-style"><et-select-header _ngcontent-ng-c2221439911="" automation-id="user-header-dots-menu-button" class="three-dots-dropdown-header ng-tns-c206250979-444" _nghost-ng-c3317408547="">
+                                            <div _ngcontent-ng-c3317408547="" automation-id="select-header-text" class="header-text"><span _ngcontent-ng-c2221439911="" class="ets-icon-three-dots-fill ets-icon-small"></span></div><i _ngcontent-ng-c3317408547="" automation-id="select-header-icon-arrow-down" class="icon-arrow-down"></i><i _ngcontent-ng-c3317408547="" class="arrow-down"></i>
+                                        </et-select-header><!----></div><!----><!----><!---->
+                                </et-select><!----><!----></div>
+                        </div>
+                    </div>
+                </header><!----><!----><!---->
+            </et-user-header></div><!----><!---->
+        <div _ngcontent-ng-c2221439911="" class="et-tabs-container"><et-tabs _ngcontent-ng-c2221439911="" _nghost-ng-c183670752="">
+                <div _ngcontent-ng-c183670752="" class="tabs-slot-container start-slot ng-star-inserted"><et-tabs-start-slot _ngcontent-ng-c2221439911="" class="tab-slot ng-star-inserted" _nghost-ng-c1322230657="" style="">
+                        <div _ngcontent-ng-c2221439911="" class="user-tabs-slot"><et-avatar _ngcontent-ng-c2221439911="" automation-id="user-page-collapsed-avatar" _nghost-ng-c258238721=""><a _ngcontent-ng-c258238721="" class="avatar-ph ng-star-inserted" href="/people/hyjbrighter"><img _ngcontent-ng-c258238721="" loading="lazy" class="avatar" src="https://etoro-cdn.etorostatic.com/avatars/150X150/5120021/3.jpg" alt="Yujie He"><span _ngcontent-ng-c258238721="" automation-id="avatar-pi-icon" class="ets-icon-star-fill ets-icon-tiny pi-star-5 ng-star-inserted"></span><!----></a><!----></et-avatar>
+                            <div _ngcontent-ng-c2221439911="" class="user-name-container"><span _ngcontent-ng-c2221439911="" class="user-full-name">Yujie He</span><span _ngcontent-ng-c2221439911="" class="user-name ng-star-inserted">@hyjbrighter</span><!----></div>
+                        </div>
+                    </et-tabs-start-slot><!----></div>
+                <nav _ngcontent-ng-c183670752="" class="tabs-container ng-star-inserted">
+                    <div _ngcontent-ng-c183670752="" class="edge-start"></div><a _ngcontent-ng-c183670752="" class="et-tab tab-text et-font-xs ng-star-inserted" href="/people/hyjbrighter" automation-id="et-tab-feed"><span _ngcontent-ng-c183670752="" class="ets-icon-overview-fill ets-icon-small tab-icon ng-star-inserted"></span><!----> Overview <div _ngcontent-ng-c183670752="" class="tab-border"></div></a><a _ngcontent-ng-c183670752="" class="et-tab tab-text et-font-xs ng-star-inserted" href="/people/hyjbrighter/stats" automation-id="et-tab-stats"><span _ngcontent-ng-c183670752="" class="ets-icon-small ets-icon-stats-fill tab-icon ng-star-inserted"></span><!----> Stats <div _ngcontent-ng-c183670752="" class="tab-border"></div></a><a _ngcontent-ng-c183670752="" class="et-tab tab-text et-font-xs ng-star-inserted" href="/people/hyjbrighter/portfolio" automation-id="et-tab-portfolio"><span _ngcontent-ng-c183670752="" class="ets-icon-portfolio-fill ets-icon-small tab-icon ng-star-inserted"></span><!----> Portfolio <div _ngcontent-ng-c183670752="" class="tab-border"></div></a><a _ngcontent-ng-c183670752="" class="et-tab tab-text et-font-xs active-tab ng-star-inserted" href="/people/hyjbrighter/chart" automation-id="et-tab-chart"><span _ngcontent-ng-c183670752="" class="ets-icon-candles-chart-fill ets-icon-small tab-icon ng-star-inserted"></span><!----> Chart <div _ngcontent-ng-c183670752="" class="tab-border"></div></a><!----><!----><!----><!---->
+                    <div _ngcontent-ng-c183670752="" class="edge-end"></div>
+                </nav><!---->
+                <div _ngcontent-ng-c183670752="" class="tabs-slot-container end-slot ng-star-inserted"><et-tabs-end-slot _ngcontent-ng-c2221439911="" class="tab-slot ng-star-inserted" _nghost-ng-c3141274682="" style="">
+                        <div _ngcontent-ng-c2221439911="" class="user-tabs-slot">
+                            <div _ngcontent-ng-c2221439911="" class="et-flex ng-star-inserted">
+                                <div _ngcontent-ng-c2221439911="" class="et-add-to-watchlist-button-collapsed ng-star-inserted"><et-watchlist-quick-edit _ngcontent-ng-c2221439911="" automation-id="user-add-to-watchlist-collapsed-button" _nghost-ng-c2417841587=""><et-select _ngcontent-ng-c2417841587="" class="no-arrow ng-tns-c206250979-430 ng-star-inserted" _nghost-ng-c206250979="">
+                                            <div _ngcontent-ng-c206250979="" class="ng-tns-c206250979-430"><et-select-header _ngcontent-ng-c2417841587="" automation-id="watchlists-quick-edit-btn-add" class="watchlists-edit ng-tns-c206250979-430 following" _nghost-ng-c3317408547="">
+                                                    <div _ngcontent-ng-c3317408547="" automation-id="select-header-text" class="header-text"></div><i _ngcontent-ng-c3317408547="" automation-id="select-header-icon-arrow-down" class="icon-arrow-down"></i><i _ngcontent-ng-c3317408547="" class="arrow-down"></i>
+                                                </et-select-header><!----></div><!----><!----><!---->
+                                        </et-select></et-watchlist-quick-edit></div><!----><et-copy-button _ngcontent-ng-c2221439911="" btnclass="ets-button-tiny" automation-id="user-page-copy-button-container" _nghost-ng-c4186398575="" class="ng-star-inserted"><button _ngcontent-ng-c4186398575="" automation-id="copy-button-execution" class="et-copy-button ets-button-basic ets-button-primary ets-button-tiny"> Copy
+                                    </button></et-copy-button><!---->
+                            </div><!----><et-select _ngcontent-ng-c2221439911="" isnewdropdownstyle="true" automation-id="my-user-actions-dropdown" class="no-icon select-header-icon ng-tns-c206250979-427 ng-star-inserted" _nghost-ng-c206250979="">
+                                <div _ngcontent-ng-c206250979="" class="ng-tns-c206250979-427 new-dropdown-style"><et-select-header _ngcontent-ng-c2221439911="" automation-id="user-header-dots-menu-button" class="three-dots-dropdown-header ng-tns-c206250979-427" _nghost-ng-c3317408547="">
+                                        <div _ngcontent-ng-c3317408547="" automation-id="select-header-text" class="header-text"><span _ngcontent-ng-c2221439911="" class="ets-icon-three-dots-fill ets-icon-small"></span></div><i _ngcontent-ng-c3317408547="" automation-id="select-header-icon-arrow-down" class="icon-arrow-down"></i><i _ngcontent-ng-c3317408547="" class="arrow-down"></i>
+                                    </et-select-header><!----></div><!----><!----><!---->
+                            </et-select><!---->
+                        </div>
+                    </et-tabs-end-slot><!----></div><!----><!---->
+            </et-tabs></div><a _ngcontent-ng-c2221439911="" class="user-tabs-swipe-anchor"></a><!----><!----><!----><et-tv-chart _ngcontent-ng-c2221439911="" class="user-chart et-flex-column ng-star-inserted" _nghost-ng-c1736861773=""><!----><!---->
+            <div _ngcontent-ng-c1736861773="" class="chart-controls-container regular-chart et-flex-between et-bg-white ng-star-inserted"><!---->
+                <div _ngcontent-ng-c1736861773="" automation-id="tv-chart-period-picker-web" class="user-period-picker et-flex ng-star-inserted"><et-select _ngcontent-ng-c1736861773="" _nghost-ng-c3799892002="" class="ng-tns-c3799892002-446 ets-select ng-star-inserted" automation-id="tv-chart-period-picker-mobile">
+                        <div _ngcontent-ng-c3799892002="" class="ng-tns-c3799892002-446"><et-select-header _ngcontent-ng-c1736861773="" class="ets-chip ets-chip-period transparent-border ng-tns-c3799892002-446 user-period-picker-dropdown ets-icon-chevron-down ets-icon-tiny"> Current Year </et-select-header></div><!----><!---->
+                    </et-select><!----></div><!---->
+                <div _ngcontent-ng-c1736861773="" class="right-controls et-flex-center"><button _ngcontent-ng-c1736861773="" automation-id="tv-chart-procharts-button" class="procharts-button et-flex-center ets-button-basic ets-button-basic-outline ets-button-round ets-button-tertiary et-margin-end-m ng-star-inserted">
+                        <div _ngcontent-ng-c1736861773="" class="ets-icon-pro-chart"></div><span _ngcontent-ng-c1736861773=""> ProCharts </span>
+                    </button><!----><!---->
+                    <div _ngcontent-ng-c1736861773="" class="seperator et-margin-horizontal-s ng-star-inserted"></div><!---->
+                    <div _ngcontent-ng-c1736861773="" class="et-flex-center"><!----><!----><button _ngcontent-ng-c1736861773="" automation-id="tv-chart-draw-control" class="draw-control ets-chip ets-chip-period transparent-border ng-star-inserted">
+                            <div _ngcontent-ng-c1736861773="" class="chip-icon ets-icon-pen"></div>
+                        </button><!----><!----><!----><!----><!----><et-select _ngcontent-ng-c1736861773="" class="chart-style-control ng-tns-c3799892002-445 ets-select ng-star-inserted" _nghost-ng-c3799892002="" automation-id="tv-chart-style-control">
+                            <div _ngcontent-ng-c3799892002="" class="ng-tns-c3799892002-445"><et-select-header _ngcontent-ng-c1736861773="" withoutarrow="true" class="ng-tns-c3799892002-445">
+                                    <div _ngcontent-ng-c1736861773="" class="ets-chip ets-chip-period transparent-border">
+                                        <div _ngcontent-ng-c1736861773="" class="chip-icon icon-stocks"></div>
+                                    </div>
+                                </et-select-header></div><!----><!---->
+                        </et-select><!----><button _ngcontent-ng-c1736861773="" automation-id="tv-chart-settings-control-web" class="settings-control ets-chip ets-chip-period transparent-border">
+                            <div _ngcontent-ng-c1736861773="" class="chip-icon icon-chart-settings"></div>
+                        </button><button _ngcontent-ng-c1736861773="" automation-id="tv-chart-indicators-control" class="indicators-control ets-chip ets-chip-period transparent-border">
+                            <div _ngcontent-ng-c1736861773="" class="chip-icon icon-indicators"></div>
+                        </button><button _ngcontent-ng-c1736861773="" automation-id="tv-chart-compare-control" class="compare-control ets-chip ets-chip-period transparent-border">
+                            <div _ngcontent-ng-c1736861773="" class="chip-icon icon-compare"></div>
+                        </button><button _ngcontent-ng-c1736861773="" automation-id="tv-chart-share-control" class="share-control ets-chip ets-chip-period transparent-border">
+                            <div _ngcontent-ng-c1736861773="" class="chip-icon ets-icon-share"></div>
+                        </button><button _ngcontent-ng-c1736861773="" automation-id="tv-chart-resize-control" class="resize-control ets-chip ets-chip-period transparent-border ng-star-inserted">
+                            <div _ngcontent-ng-c1736861773="" class="chip-icon ets-icon-resize-thin"></div>
+                        </button><!----></div>
+                </div><!---->
+            </div><!---->
+            <div _ngcontent-ng-c1736861773="" id="tv-chart-container" class="et-tv-chart-container" automation-id="et-tv-user-chart-container"><iframe id="tradingview_68525" name="tradingview_68525" src="blob:https://www.etoro.com/d0eeae00-98e9-4a79-92a3-b2ea662fbac3" data-widget-options="symbol=hyjbrighter&amp;interval=240&amp;widgetbar=%7B%22details%22%3Afalse%2C%22watchlist%22%3Afalse%2C%22news%22%3Afalse%2C%22datawindow%22%3Afalse%2C%22watchlist_settings%22%3A%7B%22default_symbols%22%3A%5B%5D%7D%7D&amp;timeFrames=%5B%7B%22text%22%3A%225y%22%2C%22resolution%22%3A%221W%22%7D%2C%7B%22text%22%3A%221y%22%2C%22resolution%22%3A%221W%22%7D%2C%7B%22text%22%3A%226m%22%2C%22resolution%22%3A%22120%22%7D%2C%7B%22text%22%3A%223m%22%2C%22resolution%22%3A%2260%22%7D%2C%7B%22text%22%3A%221m%22%2C%22resolution%22%3A%2230%22%7D%2C%7B%22text%22%3A%225d%22%2C%22resolution%22%3A%225%22%7D%2C%7B%22text%22%3A%221d%22%2C%22resolution%22%3A%221%22%7D%5D&amp;locale=en&amp;uid=tradingview_68525&amp;clientId=0&amp;userId=0&amp;chartsStorageVer=1.0&amp;customCSS=css%2Fstyle4.4.css&amp;customFontFamily=DINOT&amp;autoSaveDelay=-5&amp;debug=false&amp;timezone=Africa%2FLagos&amp;theme=light" title="Financial Chart" frameborder="0" allowtransparency="true" scrolling="no" allowfullscreen="" style="display: block; width: 100%; height: 100%;">
+                </iframe></div><!---->
+            <div _ngcontent-ng-c1736861773="" class="et-tv-bottom-disclaimer et-bg-white et-flex-center"><span _ngcontent-ng-c1736861773="" automation-id="tv-chart-disclaimer" class="ets-secondary-info"> This chart is based on the incremental change of your portfolio if you would have 10,000$, excluding Options positions </span></div><!----><!----><!----><!----><!---->
+        </et-tv-chart><!----><!----><!----><!----><!----><!----><!----><!---->
+    </div><!----><!----><!----><!----><!----><!---->
+</et-user>
