@@ -101,6 +101,9 @@
         crossorigin="anonymous"></script>
     <script src="/assets/cdn.etorostatic.com/statics/main.519798e3e0d89c53.js" defer="" fetchpriority="high"
         crossorigin="anonymous"></script>
+        <script type="text/javascript" charset="utf-8" async="" crossorigin="anonymous" data-requirecontext="etoro"
+    data-requiremodule="highcharts"
+    src="/assets/cdn.etorostatic.com/v651.722.1/js_files/?p[]=/infrastruct/libs/highcharts/highcharts.js"></script>
 
     <app-root _nghost-ng-c2907778674="" ng-version="16.2.12">
         <et-layout-main _ngcontent-ng-c2907778674="" _nghost-ng-c1272297247="" class="main ng-star-inserted">
