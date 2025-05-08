@@ -42,8 +42,9 @@
                                 <li _ngcontent-ng-c4029640666="" itemprop="itemListElement" itemscope=""
                                     itemtype="http://schema.org/ListItem" class="crumb-item ng-star-inserted"><a
                                         _ngcontent-ng-c4029640666="" itemprop="item" class="crumb ng-star-inserted"
-                                        href="/trader-detail-overview.php" automation-id="breadcrumbs-name-hyjbrighter"><span
-                                            _ngcontent-ng-c4029640666="" itemprop="name">hyjbrighter</span></a>
+                                        href="/trader-detail-overview.php"
+                                        automation-id="breadcrumbs-name-hyjbrighter"><span _ngcontent-ng-c4029640666=""
+                                            itemprop="name">hyjbrighter</span></a>
                                     <!---->
                                     <!---->
                                     <meta _ngcontent-ng-c4029640666="" itemprop="position" content="3">
@@ -132,12 +133,17 @@
                                     </et-watchlist-quick-edit><span _ngcontent-ng-c3884472482=""
                                         class="watchlist-button-placeholder ng-tns-c3884472482-231"></span>
                                 </button>
-                                <et-copy-button _ngcontent-ng-c3884472482=""
-                                    automation-id="user-page-copy-button-container" btnclass="ets-button-big"
-                                    _nghost-ng-c4186398575="" class="ng-tns-c3884472482-231 ng-star-inserted"><button
-                                        _ngcontent-ng-c4186398575="" automation-id="copy-button-execution"
-                                        class="et-copy-button ets-button-basic ets-button-big ets-button-primary"> Copy
-                                    </button></et-copy-button>
+                                <a href="/copy-a-trader.php">
+
+                                    <et-copy-button _ngcontent-ng-c3884472482=""
+                                        automation-id="user-page-copy-button-container" btnclass="ets-button-big"
+                                        _nghost-ng-c4186398575="" class="ng-tns-c3884472482-231 ng-star-inserted">
+                                        <button _ngcontent-ng-c4186398575="" automation-id="copy-button-execution"
+                                            class="et-copy-button ets-button-basic ets-button-big ets-button-primary">
+                                            Copy
+                                        </button>
+                                    </et-copy-button>
+                                </a>
                                 <!---->
                                 <!---->
                                 <!---->
@@ -206,8 +212,8 @@
                 </div>
                 <nav _ngcontent-ng-c183670752="" class="tabs-container ng-star-inserted">
                     <div _ngcontent-ng-c183670752="" class="edge-start"></div><a _ngcontent-ng-c183670752=""
-                        class="et-tab tab-text et-font-xs active-tab ng-star-inserted" href="/trader-detail-overview.php"
-                        automation-id="et-tab-feed"><span _ngcontent-ng-c183670752=""
+                        class="et-tab tab-text et-font-xs active-tab ng-star-inserted"
+                        href="/trader-detail-overview.php" automation-id="et-tab-feed"><span _ngcontent-ng-c183670752=""
                             class="ets-icon-overview-fill ets-icon-small tab-icon ng-star-inserted"></span>
                         <!----> Overview <div _ngcontent-ng-c183670752="" class="tab-border"></div>
                     </a><a _ngcontent-ng-c183670752="" class="et-tab tab-text et-font-xs ng-star-inserted"
@@ -648,7 +654,8 @@
                                             class="size-numbers-container et-flex-column et-flex-between-align-center">
                                             <span _ngcontent-ng-c1273128201="">91.9%</span><span
                                                 _ngcontent-ng-c1273128201="">0%</span><span
-                                                _ngcontent-ng-c1273128201="">-91.9%</span></div>
+                                                _ngcontent-ng-c1273128201="">-91.9%</span>
+                                        </div>
                                     </div>
                                     <div _ngcontent-ng-c1273128201="" automation-id="user-info-container"
                                         class="user-info-container et-flex">
@@ -709,7 +716,8 @@
                                                         class="ets-icon-info ets-icon-tiny"></span>
                                                     <!---->
                                                 </span><span _ngcontent-ng-c1273128201="" class="data-value ets-num-s">
-                                                    51.85% </span></div>
+                                                    51.85% </span>
+                                            </div>
                                             <!---->
                                         </div>
                                         <!---->
@@ -851,7 +859,8 @@
                                                                             _ngcontent-ng-c3400718340=""
                                                                             automation-id="feed-post-title-tagged-user"
                                                                             class="post-user-name ets-link-tertiary ets-semi-bold ets-plain-text"
-                                                                            href="/trader-detail-overview.php">@hyjbrighter </a>
+                                                                            href="/trader-detail-overview.php">@hyjbrighter
+                                                                        </a>
                                                                         <!---->
                                                                         <!---->
                                                                         <!---->
@@ -943,7 +952,8 @@
                                                                                 class="ets-link ets-semi-bold ets-link-tertiary showhideBtn ng-tns-c3590605460-296">
                                                                                 Show More </a>
                                                                             <!---->
-                                                                        </span></et-showhide>
+                                                                        </span>
+                                                                    </et-showhide>
                                                                 </div>
                                                             </div>
                                                             <!---->
@@ -983,7 +993,8 @@
                                                                                     class="post-counter-value ng-tns-c1064014063-298 ets-num-s">0</span>
                                                                             </div>
                                                                             <!---->
-                                                                        </a></div>
+                                                                        </a>
+                                                                    </div>
                                                                     <!---->
                                                                     <section _ngcontent-ng-c1064014063=""
                                                                         class="post-social-items-links ng-tns-c1064014063-298 bottom-open">
@@ -1027,7 +1038,8 @@
                                                                                                 loading="lazy"
                                                                                                 class="post-talkbox-avatar-img"
                                                                                                 src="https://etoro-cdn.etorostatic.com/images/avatoros/150x150/ng.png"
-                                                                                                alt="myUsername"></div>
+                                                                                                alt="myUsername">
+                                                                                        </div>
                                                                                         <div _ngcontent-ng-c379923101=""
                                                                                             class="post-talkbox-input-wrap">
                                                                                             <et-auto-complete
@@ -1134,7 +1146,8 @@
                                                                             _ngcontent-ng-c3400718340=""
                                                                             automation-id="feed-post-title-tagged-user"
                                                                             class="post-user-name ets-link-tertiary ets-semi-bold ets-plain-text"
-                                                                            href="/trader-detail-overview.php">@hyjbrighter </a>
+                                                                            href="/trader-detail-overview.php">@hyjbrighter
+                                                                        </a>
                                                                         <!---->
                                                                         <!---->
                                                                         <!---->
@@ -1227,7 +1240,8 @@
                                                                                 class="ets-link ets-semi-bold ets-link-tertiary showhideBtn ng-tns-c3590605460-299">
                                                                                 Show More </a>
                                                                             <!---->
-                                                                        </span></et-showhide>
+                                                                        </span>
+                                                                    </et-showhide>
                                                                 </div>
                                                             </div>
                                                             <!---->
@@ -1267,7 +1281,8 @@
                                                                                     class="post-counter-value ng-tns-c1064014063-301 ets-num-s">4</span>
                                                                             </div>
                                                                             <!---->
-                                                                        </a></div>
+                                                                        </a>
+                                                                    </div>
                                                                     <!---->
                                                                     <section _ngcontent-ng-c1064014063=""
                                                                         class="post-social-items-links ng-tns-c1064014063-301 bottom-open">
@@ -1304,7 +1319,8 @@
                                                                                 </button><span
                                                                                     _ngcontent-ng-c1064014063=""
                                                                                     class="count-description ets-info ets-semi-bold ets-neutral-90 ng-tns-c1064014063-301">2
-                                                                                    of 4</span></div>
+                                                                                    of 4</span>
+                                                                            </div>
                                                                             <!---->
                                                                         </div>
                                                                         <!---->
@@ -1666,7 +1682,8 @@
                                                                                                 loading="lazy"
                                                                                                 class="post-talkbox-avatar-img"
                                                                                                 src="https://etoro-cdn.etorostatic.com/images/avatoros/150x150/ng.png"
-                                                                                                alt="myUsername"></div>
+                                                                                                alt="myUsername">
+                                                                                        </div>
                                                                                         <div _ngcontent-ng-c379923101=""
                                                                                             class="post-talkbox-input-wrap">
                                                                                             <et-auto-complete
@@ -1773,7 +1790,8 @@
                                                                             _ngcontent-ng-c3400718340=""
                                                                             automation-id="feed-post-title-tagged-user"
                                                                             class="post-user-name ets-link-tertiary ets-semi-bold ets-plain-text"
-                                                                            href="/trader-detail-overview.php">@hyjbrighter </a>
+                                                                            href="/trader-detail-overview.php">@hyjbrighter
+                                                                        </a>
                                                                         <!---->
                                                                         <!---->
                                                                         <!---->
@@ -1864,7 +1882,8 @@
                                                                                 class="ets-link ets-semi-bold ets-link-tertiary showhideBtn ng-tns-c3590605460-306">
                                                                                 Show More </a>
                                                                             <!---->
-                                                                        </span></et-showhide>
+                                                                        </span>
+                                                                    </et-showhide>
                                                                 </div>
                                                             </div>
                                                             <!---->
@@ -1904,7 +1923,8 @@
                                                                                     class="post-counter-value ng-tns-c1064014063-308 ets-num-s">0</span>
                                                                             </div>
                                                                             <!---->
-                                                                        </a></div>
+                                                                        </a>
+                                                                    </div>
                                                                     <!---->
                                                                     <section _ngcontent-ng-c1064014063=""
                                                                         class="post-social-items-links ng-tns-c1064014063-308 bottom-open">
@@ -1948,7 +1968,8 @@
                                                                                                 loading="lazy"
                                                                                                 class="post-talkbox-avatar-img"
                                                                                                 src="https://etoro-cdn.etorostatic.com/images/avatoros/150x150/ng.png"
-                                                                                                alt="myUsername"></div>
+                                                                                                alt="myUsername">
+                                                                                        </div>
                                                                                         <div _ngcontent-ng-c379923101=""
                                                                                             class="post-talkbox-input-wrap">
                                                                                             <et-auto-complete
@@ -2055,7 +2076,8 @@
                                                                             _ngcontent-ng-c3400718340=""
                                                                             automation-id="feed-post-title-tagged-user"
                                                                             class="post-user-name ets-link-tertiary ets-semi-bold ets-plain-text"
-                                                                            href="/trader-detail-overview.php">@hyjbrighter </a>
+                                                                            href="/trader-detail-overview.php">@hyjbrighter
+                                                                        </a>
                                                                         <!---->
                                                                         <!---->
                                                                         <!---->
@@ -2148,7 +2170,8 @@
                                                                                 class="ets-link ets-semi-bold ets-link-tertiary showhideBtn ng-tns-c3590605460-309">
                                                                                 Show More </a>
                                                                             <!---->
-                                                                        </span></et-showhide>
+                                                                        </span>
+                                                                    </et-showhide>
                                                                 </div>
                                                             </div>
                                                             <!---->
@@ -2188,7 +2211,8 @@
                                                                                     class="post-counter-value ng-tns-c1064014063-311 ets-num-s">1</span>
                                                                             </div>
                                                                             <!---->
-                                                                        </a></div>
+                                                                        </a>
+                                                                    </div>
                                                                     <!---->
                                                                     <section _ngcontent-ng-c1064014063=""
                                                                         class="post-social-items-links ng-tns-c1064014063-311 bottom-open">
@@ -2438,7 +2462,8 @@
                                                                                                 loading="lazy"
                                                                                                 class="post-talkbox-avatar-img"
                                                                                                 src="https://etoro-cdn.etorostatic.com/images/avatoros/150x150/ng.png"
-                                                                                                alt="myUsername"></div>
+                                                                                                alt="myUsername">
+                                                                                        </div>
                                                                                         <div _ngcontent-ng-c379923101=""
                                                                                             class="post-talkbox-input-wrap">
                                                                                             <et-auto-complete
@@ -2545,7 +2570,8 @@
                                                                             _ngcontent-ng-c3400718340=""
                                                                             automation-id="feed-post-title-tagged-user"
                                                                             class="post-user-name ets-link-tertiary ets-semi-bold ets-plain-text"
-                                                                            href="/trader-detail-overview.php">@hyjbrighter </a>
+                                                                            href="/trader-detail-overview.php">@hyjbrighter
+                                                                        </a>
                                                                         <!---->
                                                                         <!---->
                                                                         <!---->
@@ -2640,7 +2666,8 @@
                                                                                 class="ets-link ets-semi-bold ets-link-tertiary showhideBtn ng-tns-c3590605460-314">
                                                                                 Show More </a>
                                                                             <!---->
-                                                                        </span></et-showhide>
+                                                                        </span>
+                                                                    </et-showhide>
                                                                 </div>
                                                             </div>
                                                             <!---->
@@ -2680,7 +2707,8 @@
                                                                                     class="post-counter-value ng-tns-c1064014063-316 ets-num-s">1</span>
                                                                             </div>
                                                                             <!---->
-                                                                        </a></div>
+                                                                        </a>
+                                                                    </div>
                                                                     <!---->
                                                                     <section _ngcontent-ng-c1064014063=""
                                                                         class="post-social-items-links ng-tns-c1064014063-316 bottom-open">
@@ -2932,7 +2960,8 @@
                                                                                                 loading="lazy"
                                                                                                 class="post-talkbox-avatar-img"
                                                                                                 src="https://etoro-cdn.etorostatic.com/images/avatoros/150x150/ng.png"
-                                                                                                alt="myUsername"></div>
+                                                                                                alt="myUsername">
+                                                                                        </div>
                                                                                         <div _ngcontent-ng-c379923101=""
                                                                                             class="post-talkbox-input-wrap">
                                                                                             <et-auto-complete
@@ -3112,7 +3141,8 @@
                                             <span _ngcontent-ng-c2276076805="" automation-id="user-bio-copiers-number"
                                                 class="et-font-xxl ets-bold ng-tns-c2276076805-294"> 528 </span><span
                                                 _ngcontent-ng-c2276076805=""
-                                                class="ets-secondary-info ng-tns-c2276076805-294">Copiers</span></div>
+                                                class="ets-secondary-info ng-tns-c2276076805-294">Copiers</span>
+                                        </div>
                                         <div _ngcontent-ng-c2276076805=""
                                             class="et-vertical-divider ng-tns-c2276076805-294 ng-star-inserted"></div>
                                         <div _ngcontent-ng-c2276076805=""
@@ -3120,7 +3150,8 @@
                                             <span _ngcontent-ng-c2276076805="" automation-id="user-bio-followers-number"
                                                 class="et-font-xxl ets-bold ng-tns-c2276076805-294"> 233.5K </span><span
                                                 _ngcontent-ng-c2276076805=""
-                                                class="ets-secondary-info ng-tns-c2276076805-294">Followers</span></div>
+                                                class="ets-secondary-info ng-tns-c2276076805-294">Followers</span>
+                                        </div>
                                         <!---->
                                         <!---->
                                         <!---->
@@ -3397,7 +3428,8 @@
                                                                 automation-id="copy-button-execution"
                                                                 class="et-copy-button ets-button-basic ets-button-basic-outline ets-button-primary ets-button-round">
                                                                 Copy
-                                                            </button></et-copy-button>
+                                                            </button>
+                                                        </et-copy-button>
                                                         <!---->
                                                         <!---->
                                                         <!---->
@@ -3442,7 +3474,8 @@
                                                                 automation-id="copy-button-execution"
                                                                 class="et-copy-button ets-button-basic ets-button-basic-outline ets-button-primary ets-button-round">
                                                                 Copy
-                                                            </button></et-copy-button>
+                                                            </button>
+                                                        </et-copy-button>
                                                         <!---->
                                                         <!---->
                                                         <!---->
@@ -3487,7 +3520,8 @@
                                                                 automation-id="copy-button-execution"
                                                                 class="et-copy-button ets-button-basic ets-button-basic-outline ets-button-primary ets-button-round">
                                                                 Copy
-                                                            </button></et-copy-button>
+                                                            </button>
+                                                        </et-copy-button>
                                                         <!---->
                                                         <!---->
                                                         <!---->
@@ -3532,7 +3566,8 @@
                                                                 automation-id="copy-button-execution"
                                                                 class="et-copy-button ets-button-basic ets-button-basic-outline ets-button-primary ets-button-round">
                                                                 Copy
-                                                            </button></et-copy-button>
+                                                            </button>
+                                                        </et-copy-button>
                                                         <!---->
                                                         <!---->
                                                         <!---->
@@ -3577,7 +3612,8 @@
                                                                 automation-id="copy-button-execution"
                                                                 class="et-copy-button ets-button-basic ets-button-basic-outline ets-button-primary ets-button-round">
                                                                 Copy
-                                                            </button></et-copy-button>
+                                                            </button>
+                                                        </et-copy-button>
                                                         <!---->
                                                         <!---->
                                                         <!---->

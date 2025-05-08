@@ -258,7 +258,7 @@
                         <li _ngcontent-ng-c532554544=""
                             class="list-item list2-item config-buttons animation-type-fade ng-star-inserted"
                             automation-id="sidenav-config-buttons">
-                            <a _ngcontent-ng-c532554544="" href="/assets/settings/"
+                            <a _ngcontent-ng-c532554544="" href="/settings.php"
                                 class="menu-item ng-star-inserted"
                                 automation-id="sidenav-menu-settings"><span
                                     _ngcontent-ng-c532554544=""
