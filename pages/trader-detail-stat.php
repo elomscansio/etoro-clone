@@ -796,7 +796,7 @@
                                         </div>
                                     </et-card-content></section>
                             </et-card></et-user-stats-page-esg><!----><!----><!---->
-                        <div _ngcontent-ng-c3441088007="" class="ets-secondary-info user-stats-main-disclaimer">Content, research, tools, and stock symbols on eToro's website are for educational purposes only and do not imply a recommendation or solicitation to engage in any specific investment strategy. All investments involve risk, losses may exceed the amount of principal invested, and past performance does not guarantee future results.</div>
+                        <div _ngcontent-ng-c3441088007="" class="ets-secondary-info user-stats-main-disclaimer">Content, research, tools, and stock symbols on Royal Oak's website are for educational purposes only and do not imply a recommendation or solicitation to engage in any specific investment strategy. All investments involve risk, losses may exceed the amount of principal invested, and past performance does not guarantee future results.</div>
                     </div>
                 </div><!----><!----><!---->
             </div><!---->

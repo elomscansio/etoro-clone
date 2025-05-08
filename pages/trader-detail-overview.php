@@ -741,10 +741,10 @@
                                     <div _ngcontent-ng-c33949245="" class="new-post-section">
                                         <et-avatar _ngcontent-ng-c33949245="" _nghost-ng-c258238721=""><a
                                                 _ngcontent-ng-c258238721="" class="avatar-ph ng-star-inserted"
-                                                href="/people/scansio"><img _ngcontent-ng-c258238721="" loading="lazy"
+                                                href="/people/myUsername"><img _ngcontent-ng-c258238721="" loading="lazy"
                                                     class="avatar"
                                                     src="https://etoro-cdn.etorostatic.com/images/avatoros/150x150/ng.png"
-                                                    alt="scansio">
+                                                    alt="myUsername">
                                                 <!---->
                                             </a>
                                             <!---->
@@ -1027,7 +1027,7 @@
                                                                                                 loading="lazy"
                                                                                                 class="post-talkbox-avatar-img"
                                                                                                 src="https://etoro-cdn.etorostatic.com/images/avatoros/150x150/ng.png"
-                                                                                                alt="scansio"></div>
+                                                                                                alt="myUsername"></div>
                                                                                         <div _ngcontent-ng-c379923101=""
                                                                                             class="post-talkbox-input-wrap">
                                                                                             <et-auto-complete
@@ -1666,7 +1666,7 @@
                                                                                                 loading="lazy"
                                                                                                 class="post-talkbox-avatar-img"
                                                                                                 src="https://etoro-cdn.etorostatic.com/images/avatoros/150x150/ng.png"
-                                                                                                alt="scansio"></div>
+                                                                                                alt="myUsername"></div>
                                                                                         <div _ngcontent-ng-c379923101=""
                                                                                             class="post-talkbox-input-wrap">
                                                                                             <et-auto-complete
@@ -1948,7 +1948,7 @@
                                                                                                 loading="lazy"
                                                                                                 class="post-talkbox-avatar-img"
                                                                                                 src="https://etoro-cdn.etorostatic.com/images/avatoros/150x150/ng.png"
-                                                                                                alt="scansio"></div>
+                                                                                                alt="myUsername"></div>
                                                                                         <div _ngcontent-ng-c379923101=""
                                                                                             class="post-talkbox-input-wrap">
                                                                                             <et-auto-complete
@@ -2438,7 +2438,7 @@
                                                                                                 loading="lazy"
                                                                                                 class="post-talkbox-avatar-img"
                                                                                                 src="https://etoro-cdn.etorostatic.com/images/avatoros/150x150/ng.png"
-                                                                                                alt="scansio"></div>
+                                                                                                alt="myUsername"></div>
                                                                                         <div _ngcontent-ng-c379923101=""
                                                                                             class="post-talkbox-input-wrap">
                                                                                             <et-auto-complete
@@ -2932,7 +2932,7 @@
                                                                                                 loading="lazy"
                                                                                                 class="post-talkbox-avatar-img"
                                                                                                 src="https://etoro-cdn.etorostatic.com/images/avatoros/150x150/ng.png"
-                                                                                                alt="scansio"></div>
+                                                                                                alt="myUsername"></div>
                                                                                         <div _ngcontent-ng-c379923101=""
                                                                                             class="post-talkbox-input-wrap">
                                                                                             <et-auto-complete

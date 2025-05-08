@@ -30,7 +30,7 @@
                                 <div _ngcontent-ng-c2610036046="" class="payment-method-container ng-star-inserted"><span _ngcontent-ng-c2610036046="" class="choose-payment-method-title ets-semi-bold"> Choose payment method: </span><et-deposit-payment-method-dropdown-v2 _ngcontent-ng-c2610036046="" automation-id="deposit-v2-deposit-payment-method-dropdown-v2" class="cmp-deposit-payment-method-dropdown-v2 change-location-mop borderless" _nghost-ng-c2653434329="">
                                         <et-select _ngcontent-ng-c2653434329="" automation-id="deposit-payment-method-dropdown" class="i-settings-input-hp ng-tns-c206250979-7 ng-star-inserted" _nghost-ng-c206250979="">
                                             <div _ngcontent-ng-c206250979="" class="ng-tns-c206250979-7 new-dropdown-style">
-                                                <et-select-header _ngcontent-ng-c2653434329="" _nghost-ng-c3317408547="" class="ng-tns-c206250979-7">
+                                                <et-select-header onclick="toggleClass('select-payment-method', 'hidden')" _ngcontent-ng-c2653434329="" _nghost-ng-c3317408547="" class="ng-tns-c206250979-7">
                                                     <div _ngcontent-ng-c3317408547="" automation-id="select-header-text" class="header-text">
                                                         <div _ngcontent-ng-c2653434329="" automation-id="deposit-payment-method-dropdown-header" class="header-container" automation-selected-payment-method="1"><!----><span _ngcontent-ng-c2653434329="" class="po-text-option ets-semi-bold ng-star-inserted"> Credit/Debit Card </span><!----><!----><!----><!----></div>
                                                     </div>
@@ -38,11 +38,13 @@
                                                     <i _ngcontent-ng-c3317408547="" class="arrow-down"></i>
                                                 </et-select-header><!---->
                                             </div><!----><!----><!---->
-                                            <div _ngcontent-ng-c206250979="" class="relative-body ng-tns-c206250979-7 ng-trigger ng-trigger-openClose ng-star-inserted" style="">
+                                            <div id="select-payment-method" _ngcontent-ng-c206250979="" class="relative-body ng-tns-c206250979-7 ng-trigger ng-trigger-openClose ng-star-inserted hidden" style="">
                                                 <div _ngcontent-ng-c206250979="" class="dlg-container ng-tns-c206250979-7 new-dropdown-style ng-star-inserted" style="">
                                                     <div _ngcontent-ng-c206250979="" class="dlg elad ng-tns-c206250979-7">
                                                         <div _ngcontent-ng-c206250979="" class="ng-tns-c206250979-7 dropdown-header"><span _ngcontent-ng-c206250979="" class="icon-close ng-tns-c206250979-7"></span></div><!---->
-                                                        <div _ngcontent-ng-c206250979="" class="dlg-body ng-tns-c206250979-7"><et-select-body _ngcontent-ng-c2653434329="" automation-id="deposit-payment-method-list" class="cmp-et-select-body ng-tns-c206250979-7" _nghost-ng-c474643102=""><et-select-body-option _ngcontent-ng-c2653434329="" class="payment-option selected-option ng-star-inserted" _nghost-ng-c147998405="" automation-deposit-payment-option-dropdown-option="1">
+                                                        <div _ngcontent-ng-c206250979="" class="dlg-body ng-tns-c206250979-7">
+                                                            <et-select-body _ngcontent-ng-c2653434329="" automation-id="deposit-payment-method-list" class="cmp-et-select-body ng-tns-c206250979-7" _nghost-ng-c474643102="">
+                                                                <et-select-body-option _ngcontent-ng-c2653434329="" class="payment-option selected-option ng-star-inserted" _nghost-ng-c147998405="" automation-deposit-payment-option-dropdown-option="1">
                                                                     <div _ngcontent-ng-c147998405="" class="option-left-icon et-padding-end-s"></div><!----><span _ngcontent-ng-c2653434329="" class="po-text-option ets-semi-bold ng-star-inserted"> Credit/Debit Card </span><!----><!----><!----><!---->
                                                                     <div _ngcontent-ng-c147998405="" class="icon-check-container ng-star-inserted"><i _ngcontent-ng-c147998405="" class="icon-check"></i></div><!----><!---->
                                                                 </et-select-body-option><et-select-body-option _ngcontent-ng-c2653434329="" class="payment-option ng-star-inserted" _nghost-ng-c147998405="" automation-deposit-payment-option-dropdown-option="8">

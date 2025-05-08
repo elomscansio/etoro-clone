@@ -4,7 +4,7 @@
 <head data-meta-tags="" data-assets-version="v651.677.5" class="ng-scope">
     <!-- START META -->
     <title ng-bind=":: $root.t.dynamic('metaTags', 'default.title', data)" class="ng-binding ng-scope">
-        eToro
+        Royal Oak
     </title>
     <!-- ngIf: :: data.noFollow -->
     <!-- ngIf: :: data.referrer -->
@@ -22,16 +22,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta property="fb:admins" content="100000137838591" />
     <meta property="fb:app_id" content="166209726726710" />
-    <meta property="og:site_name" content="eToro" />
+    <meta property="og:site_name" content="Royal Oak" />
     <meta property="og:type" content="website" />
     <meta property="article:publisher" content="/www.facebook.com/etoro" />
     <meta name="twitter:site" content="@etoro" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:app:name:iphone" content="eToro OpenBook" />
+    <meta name="twitter:app:name:iphone" content="Royal Oak OpenBook" />
     <meta name="twitter:app:id:iphone" content="674984916" />
-    <meta name="twitter:app:name:ipad" content="eToro OpenBook" />
+    <meta name="twitter:app:name:ipad" content="Royal Oak OpenBook" />
     <meta name="twitter:app:id:ipad" content="674984916" />
-    <meta name="twitter:app:name:googleplay" content="eToro OpenBook" />
+    <meta name="twitter:app:name:googleplay" content="Royal Oak OpenBook" />
     <meta name="twitter:app:id:googleplay" content="com.etoro.openbook" />
     <link rel="preconnect" href="/assets/cdn.etorostatic.com" crossorigin="" />
     <link rel="preconnect" href="/assets/api.etorostatic.com" crossorigin="" />
@@ -39,17 +39,15 @@
     <link rel="preload" href="/assets/etoro-cdn.etorostatic.com/web-client/img/preloader.png" as="image" />
     <link rel="publisher" href="/assets/plus.google.com/+etoro" />
     <link rel="apple-touch-icon-precomposed" sizes="57x57"
-        href="/assets/etoro-cdn.etorostatic.com/web-client/img/Splash/touch-icon-iphone-57.png" />
+        href="/assets/logo.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114"
-        href="/assets/etoro-cdn.etorostatic.com/web-client/img/Splash/touch-icon-iphone-114.png" />
+        href="/assets/logo.png" />
     <link rel="apple-touch-icon-precomposed" sizes="72x72"
-        href="/assets/etoro-cdn.etorostatic.com/web-client/img/Splash/touch-icon-ipad-72.png" />
+        href="/assets/logo.png" />
     <link rel="apple-touch-icon-precomposed" sizes="144x144"
-        href="/assets/etoro-cdn.etorostatic.com/web-client/img/Splash/touch-icon-ipad-144.png" />
-    <link rel="icon" type="image/png" sizes="32x32"
-        href="/assets/etoro-cdn.etorostatic.com/web-client/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16"
-        href="/assets/etoro-cdn.etorostatic.com/web-client/favicon/favicon-16x16.png" />
+        href="/assets/logo.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/logo.png" />
     <link rel="manifest" href="/assets/app/manifests/add-to-hp.json" />
     <link rel="stylesheet" href="/assets/cdn.etorostatic.com/statics/styles.af81bf75fadcb154.css" />
 
@@ -93,17 +91,17 @@
     <script
         src="/assets/api.etorostatic.com/sapi/app-data/web-client-locales/en-gb.js?cv=2af70545caa4b0e682374ff55608e7d3_2318fd3ec88e7bb4b6fd26b4b02bf7ca"
         defer="" fetchpriority="high" crossorigin="anonymous"></script>
-    <script src="/assets/cdn.etorostatic.com/v651.677.5/js_files?m[]=tools/browser-support" defer=""
-        fetchpriority="low" crossorigin="anonymous"></script>
+    <script src="/assets/cdn.etorostatic.com/v651.677.5/js_files?m[]=tools/browser-support" defer="" fetchpriority="low"
+        crossorigin="anonymous"></script>
     <script src="/assets/cdn.etorostatic.com/statics/runtime.d41b03c71cc3e052.js" defer="" fetchpriority="high"
         crossorigin="anonymous"></script>
     <script src="/assets/cdn.etorostatic.com/statics/polyfills.10efbb8785383a3e.js" defer="" fetchpriority="high"
         crossorigin="anonymous"></script>
     <script src="/assets/cdn.etorostatic.com/statics/main.519798e3e0d89c53.js" defer="" fetchpriority="high"
         crossorigin="anonymous"></script>
-        <script type="text/javascript" charset="utf-8" async="" crossorigin="anonymous" data-requirecontext="etoro"
-    data-requiremodule="highcharts"
-    src="/assets/cdn.etorostatic.com/v651.722.1/js_files/?p[]=/infrastruct/libs/highcharts/highcharts.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" crossorigin="anonymous" data-requirecontext="etoro"
+        data-requiremodule="highcharts"
+        src="/assets/cdn.etorostatic.com/v651.722.1/js_files/?p[]=/infrastruct/libs/highcharts/highcharts.js"></script>
 
     <app-root _nghost-ng-c2907778674="" ng-version="16.2.12">
         <et-layout-main _ngcontent-ng-c2907778674="" _nghost-ng-c1272297247="" class="main ng-star-inserted">

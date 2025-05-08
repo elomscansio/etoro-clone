@@ -4,13 +4,15 @@
         class="ng-tns-c1272297247-0 ng-star-inserted">
         <aside _ngcontent-ng-c532554544="" class="nav-all expanded ng-star-inserted"
             automation-id="menu-layout">
-            <div _ngcontent-ng-c532554544="" class="nav-top" automation-id="menu-layout-head-clone">
+            <div _ngcontent-ng-c532554544="" class="nav-top" automation-id="menu-layout-head-clone" style="
+    background: white;
+">
                 <a _ngcontent-ng-c532554544="" href="#" class="top-logo animation-type-fade"
                     automation-id="sidenav-logo"></a>
-                    <!-- <a _ngcontent-ng-c532554544=""
+                <!-- <a _ngcontent-ng-c532554544=""
                     class="expand-collapse-button collapse"
                     automation-id="sidenav-collapse-expand-button"></a> -->
-                    <a
+                <a
                     _ngcontent-ng-c532554544=""
                     class="close-menu font-icon ets-icon-small ets-icon-close" onclick="closeSidebar()"
                     automation-id="menu-layout-toggle-menu"></a>
@@ -25,14 +27,14 @@
                     <!---->
                     <div _ngcontent-ng-c532554544="" class="user-box ng-star-inserted"
                         automation-id="sidenav-user-box">
-                        <a _ngcontent-ng-c532554544="" href="/assets/people/scansio"><img
+                        <a _ngcontent-ng-c532554544="" href="/assets/people/myUsername"><img
                                 _ngcontent-ng-c532554544="" class="avatar"
                                 src="/assets/etoro-cdn.etorostatic.com/images/avatoros/150x150/ng.png"
                                 automation-id="menu-user-avatar" /></a>
                         <div _ngcontent-ng-c532554544="" class="info animation-type-fade">
                             <a _ngcontent-ng-c532554544="" class="username ng-star-inserted"
-                                href="/assets/people/scansio" automation-id="menu-user-page-link">
-                                scansio</a>
+                                href="/assets/people/myUsername" automation-id="menu-user-page-link">
+                                myUsername</a>
                             <!---->
                             <!---->
                             <!---->
@@ -201,7 +203,7 @@
                                 automation-id="sidenav-menu-club"><span _ngcontent-ng-c532554544=""
                                     class="icon font-icon animation-type-zoom ets-icon-club ets-icon-medium"
                                     automation-id="menu-layout-clubs-icon"></span><span
-                                    _ngcontent-ng-c532554544="" class="text">eToro Club
+                                    _ngcontent-ng-c532554544="" class="text">Royal Oak Club
                                     <!---->
                                 </span>
                                 <et-layout-sidenav-tooltip _ngcontent-ng-c532554544=""

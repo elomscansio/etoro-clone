@@ -67,7 +67,7 @@
                                                 </ul>
                                             </div>
                                         </div><!---->
-                                        <div _ngcontent-ng-c2025212484="" automation-id="manage-copy-trade-unrealized-copy-disclaimer-us" class="copy-disclaimer start ng-star-inserted"><span _ngcontent-ng-c2025212484=""> By investing, you are instructing eToro USA LLC to move funds to APEX to facilitate the trading of stocks. You are also instructing eToro USA LLC to buy any relevant crypto assets in this investment. </span></div><!---->
+                                        <div _ngcontent-ng-c2025212484="" automation-id="manage-copy-trade-unrealized-copy-disclaimer-us" class="copy-disclaimer start ng-star-inserted"><span _ngcontent-ng-c2025212484=""> By investing, you are instructing Royal Oak USA LLC to move funds to APEX to facilitate the trading of stocks. You are also instructing Royal Oak USA LLC to buy any relevant crypto assets in this investment. </span></div><!---->
                                     </div><!---->
                                 </div>
                                 <div _ngcontent-ng-c2025212484="" class="trad-exe-button-wrap">

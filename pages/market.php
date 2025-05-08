@@ -108,7 +108,7 @@
                                                     href="https://www.etoro.com/trading/market-hours-and-events/"
                                                     target="_blank">Market Open</a></span></span><span
                                             _ngcontent-ng-c2387928129="" class="price-provider et-flex-align-end">
-                                            Prices by eToro,&nbsp;in USD </span></div>
+                                            Prices by Royal Oak,&nbsp;in USD </span></div>
                                     <!---->
                                     <!---->
                                     <!---->
@@ -845,7 +845,7 @@
                                                         exchange will offer it.
 
                                                         Track the value of SOL and other cryptoassets here on
-                                                        eToro.</span>
+                                                        Royal Oak.</span>
                                                     <!---->
                                                     <div _ngcontent-ng-c3751462836=""
                                                         class="crypto-link-wrapper ng-star-inserted"><a
@@ -941,10 +941,10 @@
                                             <div _ngcontent-ng-c33949245="" class="new-post-section">
                                                 <et-avatar _ngcontent-ng-c33949245="" _nghost-ng-c258238721=""><a
                                                         _ngcontent-ng-c258238721="" class="avatar-ph ng-star-inserted"
-                                                        href="/people/scansio"><img _ngcontent-ng-c258238721=""
+                                                        href="/people/myUsername"><img _ngcontent-ng-c258238721=""
                                                             loading="lazy" class="avatar"
                                                             src="https://etoro-cdn.etorostatic.com/images/avatoros/150x150/ng.png"
-                                                            alt="scansio">
+                                                            alt="myUsername">
                                                         <!---->
                                                     </a>
                                                     <!---->

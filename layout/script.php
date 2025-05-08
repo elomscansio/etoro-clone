@@ -23,4 +23,11 @@
         if (sidebar)
             sidebar.style.transform = 'translate(-100%)'
     }
+
+    function toggleClass(elementId, className) {
+        const element = document.getElementById(elementId)
+        if (element) {
+            element.classList.toggle(className)
+        }
+    }
 </script>

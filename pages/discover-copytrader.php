@@ -259,7 +259,7 @@
                                                         </div>
                                                         <div _ngcontent-ng-c1872191239="" class="cp-preset-card-footer et-text-font">
                                                             <div _ngcontent-ng-c1872191239="" automation-id="discover-people-preset-card-bio" class="cp-preset-card-description ng-star-inserted"> 🛡 26 Years Investing
-                                                                ⭐️ Top 20 eToro Popular Investor
+                                                                ⭐️ Top 20 Royal Oak Popular Investor
                                                                 ⚖️ Balancing Growth with Risk </div><!---->
                                                             <div _ngcontent-ng-c1872191239="" class="cp-preset-card-footer-bottom">
                                                                 <div _ngcontent-ng-c1872191239="" class="cp-preset-card-gain-container">
