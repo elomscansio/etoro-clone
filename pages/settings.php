@@ -137,6 +137,7 @@
                                     </p>
                                     <!---->
                                 </div><button _ngcontent-ng-c446851362=""
+                                    onclick="toggleClass('edit-email', 'hidden')"
                                     automation-id="settings-account-email-change-btn"
                                     class="et-button et-button-s et-button-secondary-outline ng-star-inserted">Change</button>
                                 <!---->
@@ -151,6 +152,7 @@
                                         automation-id="settings-account-password-credentials-lable"
                                         class="credentials-label">Password</p>
                                 </div><a _ngcontent-ng-c446851362=""
+                                    onclick="toggleClass('edit-password', 'hidden')"
                                     automation-id="settings-account-password-change-btn"
                                     class="et-button et-button-s et-button-secondary-outline">Change</a>
                             </div>
@@ -168,7 +170,8 @@
                                 <div _ngcontent-ng-c446851362=""><a _ngcontent-ng-c446851362=""
                                         automation-id="settings-account-change-phone-button"
                                         class="et-button et-button-s et-button-secondary-outline ng-star-inserted"><span
-                                            _ngcontent-ng-c446851362="" class="ng-star-inserted"> Add </span>
+                                            onclick="toggleClass('edit-phone', 'hidden')"
+                                            _ngcontent-ng-c446851362="" class="ng-star-inserted"> Change </span>
                                         <!---->
                                         <!---->
                                         <!---->
@@ -180,8 +183,8 @@
                             <div _ngcontent-ng-c446851362=""
                                 class="et-flex-between-align-center et-padding-bottom-xl ng-star-inserted">
                                 <p _ngcontent-ng-c446851362="">Trusted contact person</p><a _ngcontent-ng-c446851362=""
-                                    target="_blank" class="et-button et-button-s et-button-secondary-outline"
-                                    href="https://www.etoro.com/en-us/customer-service/?deepLink=type/account/account_subtype/trusted_contact_change/trusted_contact_change_subtype2/update_trusted_contact">Set</a>
+                                    class="et-button et-button-s et-button-secondary-outline"
+                                    href="#">Set</a>
                             </div>
                             <!---->
                         </et-card-content>

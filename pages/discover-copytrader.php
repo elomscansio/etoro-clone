@@ -201,7 +201,7 @@
                                     </div><!----><!---->
                                     <swiper _ngcontent-ng-c1487087480="">
                                         <div class="s-wrapper swiper swiper-container swiper-container-initialized swiper-container-horizontal">
-                                            <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);"><et-discover-people-preset-card _ngcontent-ng-c1530843720="" _nghost-ng-c1872191239="" class="card-container-typea swiper-slide ng-star-inserted swiper-slide-active" style="width: 337.667px; margin-right: 14px;">
+                                            <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px); overflow-x: auto;"><et-discover-people-preset-card _ngcontent-ng-c1530843720="" _nghost-ng-c1872191239="" class="card-container-typea swiper-slide ng-star-inserted swiper-slide-active" style="width: 337.667px; margin-right: 14px;">
                                                     <div _ngcontent-ng-c1872191239="" automation-id="sw-card-container" class="cp-preset-card-wrap-type-a et-padding-l ng-star-inserted">
                                                         <div _ngcontent-ng-c1872191239="" class="cp-preset-card-header">
                                                             <div _ngcontent-ng-c1872191239="" class="et-flex-between">

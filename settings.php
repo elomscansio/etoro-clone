@@ -8,5 +8,6 @@ $pageTitle = "Settings";
 require 'layout/main.top.php';
 require 'pages/settings.php';
 require 'layout/main.bottom.php';
+require 'pages/modals/settings.php';
 
 ?>
