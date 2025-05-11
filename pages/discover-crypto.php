@@ -533,79 +533,31 @@
                                         <div _ngcontent-ng-c1487087480="" class="et-navigation-buttons ng-star-inserted"><a _ngcontent-ng-c1487087480="" automation-id="sw-view-all-link" class="et-link-view-all ng-star-inserted" href="/discover/markets/cryptocurrencies/market-movers"> View All </a><!----><!----><!----></div><!---->
                                     </header><!---->
                                 </div><!----><!---->
-                                <swiper _ngcontent-ng-c1487087480="">
-                                    <div class="s-wrapper swiper swiper-container swiper-container-initialized swiper-container-horizontal">
-                                        <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px); overflow-x: auto;">
-                                            <div _ngcontent-ng-c747925873="" class="swiper-slide ng-star-inserted swiper-slide-active" style="width: 516.5px; margin-right: 20px;"><et-top-movers-list _ngcontent-ng-c747925873="" _nghost-ng-c3880730706="">
-                                                    <div _ngcontent-ng-c3880730706="" class="top-movers-list top-movers-list--topGainers ng-star-inserted"><a _ngcontent-ng-c3880730706="" class="top-mover-item control-a with-hover ng-star-inserted" href="/markets/stx">
-                                                            <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info">
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon-container">
-                                                                    <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon" style="background-color: rgb(85, 70, 255);"><img _ngcontent-ng-c3880730706="" loading="lazy" src="https://etoro-cdn.etorostatic.com/market-avatars/100314/100314_5546FF_F7F7F7.svg" alt="STX logo"></div><!---->
-                                                                </div>
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__content">
-                                                                    <h4 _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__title">STX</h4><span _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__description et-instrument-icon-info__description--ellipsis">Stacks</span>
-                                                                </div>
-                                                            </div>
-                                                            <div _ngcontent-ng-c3880730706="" class="top-mover-item__price">
-                                                                <div _ngcontent-ng-c3880730706="" class="instrument-percent et-positive"> 12.41% </div>
-                                                            </div>
-                                                        </a><!----><!----><!----><!----><a _ngcontent-ng-c3880730706="" class="top-mover-item control-a with-hover ng-star-inserted" href="/markets/fet">
-                                                            <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info">
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon-container">
-                                                                    <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon" style="background-color: rgb(32, 41, 68);"><img _ngcontent-ng-c3880730706="" loading="lazy" src="https://etoro-cdn.etorostatic.com/market-avatars/100079/100079_202944_F7F7F7.svg" alt="FET logo"></div><!---->
-                                                                </div>
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__content">
-                                                                    <h4 _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__title">FET</h4><span _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__description et-instrument-icon-info__description--ellipsis">Fetch.ai</span>
-                                                                </div>
-                                                            </div>
-                                                            <div _ngcontent-ng-c3880730706="" class="top-mover-item__price">
-                                                                <div _ngcontent-ng-c3880730706="" class="instrument-percent et-positive"> 10.31% </div>
-                                                            </div>
-                                                        </a><!----><!----><!----><!----><a _ngcontent-ng-c3880730706="" class="top-mover-item control-a with-hover ng-star-inserted" href="/markets/ltc">
-                                                            <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info">
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon-container">
-                                                                    <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon" style="background-color: rgb(54, 96, 153);"><img _ngcontent-ng-c3880730706="" loading="lazy" src="https://etoro-cdn.etorostatic.com/market-avatars/100005/100005_366099_F7F7F7.svg" alt="LTC logo"></div><!---->
-                                                                </div>
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__content">
-                                                                    <h4 _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__title">LTC</h4><span _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__description et-instrument-icon-info__description--ellipsis">Litecoin</span>
-                                                                </div>
-                                                            </div>
-                                                            <div _ngcontent-ng-c3880730706="" class="top-mover-item__price">
-                                                                <div _ngcontent-ng-c3880730706="" class="instrument-percent et-positive"> 8.80% </div>
-                                                            </div>
-                                                        </a><!----><!----><!----><!----><a _ngcontent-ng-c3880730706="" class="top-mover-item control-a with-hover ng-star-inserted" href="/markets/sui">
-                                                            <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info">
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon-container">
-                                                                    <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon" style="background-color: rgb(111, 188, 240);"><img _ngcontent-ng-c3880730706="" loading="lazy" src="https://etoro-cdn.etorostatic.com/market-avatars/100340/100340_6FBCF0_F7F7F7.svg" alt="SUI logo"></div><!---->
-                                                                </div>
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__content">
-                                                                    <h4 _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__title">SUI</h4><span _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__description et-instrument-icon-info__description--ellipsis">Sui</span>
-                                                                </div>
-                                                            </div>
-                                                            <div _ngcontent-ng-c3880730706="" class="top-mover-item__price">
-                                                                <div _ngcontent-ng-c3880730706="" class="instrument-percent et-positive"> 6.63% </div>
-                                                            </div>
-                                                        </a><!----><!----><!----><!----><a _ngcontent-ng-c3880730706="" class="top-mover-item control-a with-hover ng-star-inserted" href="/markets/cro">
-                                                            <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info">
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon-container">
-                                                                    <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon" style="background-color: rgb(1, 45, 116);"><img _ngcontent-ng-c3880730706="" loading="lazy" src="https://etoro-cdn.etorostatic.com/market-avatars/100009/100009_012D74_F7F7F7.svg" alt="CRO logo"></div><!---->
-                                                                </div>
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__content">
-                                                                    <h4 _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__title">CRO</h4><span _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__description et-instrument-icon-info__description--ellipsis">Cronos</span>
-                                                                </div>
-                                                            </div>
-                                                            <div _ngcontent-ng-c3880730706="" class="top-mover-item__price">
-                                                                <div _ngcontent-ng-c3880730706="" class="instrument-percent et-positive"> 6.32% </div>
-                                                            </div>
-                                                        </a><!----><!----><!----><!----><!----></div><!----><!----><!---->
-                                                </et-top-movers-list></div><!---->
-                                        </div>
-                                        <div class="swiper-scrollbar" hidden=""></div>
-                                        <div class="swiper-button-prev" hidden="" disabled="true"></div>
-                                        <div class="swiper-button-next" hidden="" disabled="true"></div>
-                                        <div class="swiper-pagination" hidden=""></div><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-                                    </div>
-                                </swiper><!----><!----><!---->
+                                <!-- TradingView Widget BEGIN -->
+                                <div class="tradingview-widget-container">
+                                    <div class="tradingview-widget-container__widget"></div>
+                                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
+                                        {
+                                            "colorTheme": "light",
+                                            "dateRange": "12M",
+                                            "exchange": "US",
+                                            "showChart": false,
+                                            "locale": "en",
+                                            "largeChartUrl": "",
+                                            "isTransparent": false,
+                                            "showSymbolLogo": false,
+                                            "showFloatingTooltip": false,
+                                            "width": "100%",
+                                            "height": "407"
+                                        }
+                                    </script>
+                                </div>
+                                <!-- TradingView Widget END -->
+                                <!-- coingecko start -->
+                                <script src="https://widgets.coingecko.com/gecko-coin-list-widget.js"></script>
+                                <gecko-coin-list-widget locale="en" outlined="true" coin-ids="" initial-currency="usd"></gecko-coin-list-widget>
+                                <!-- coingecko start end -->
                             </div>
                         </et-ui-swiper-wrapper></div><!----><!----><!----><!----><!----><!---->
                 </et-discovery-top-movers><et-instruments-swiper-cards-list _nghost-ng-c2984719623="" class="ng-star-inserted">

@@ -379,142 +379,31 @@
                                         <div _ngcontent-ng-c1487087480="" class="et-navigation-buttons ng-star-inserted"><a _ngcontent-ng-c1487087480="" automation-id="sw-view-all-link" class="et-link-view-all ng-star-inserted" href="/discover/screener?AbsDailyPriceChangeMax=40&amp;IsInternalInstrument=false&amp;InternalCryptoTypeId=0,1001&amp;IsBuyEnabled=true"> View All </a><!----><!----><!----></div><!---->
                                     </header><!---->
                                 </div><!----><!---->
-                                <swiper _ngcontent-ng-c1487087480="">
-                                    <div class="s-wrapper swiper swiper-container swiper-container-initialized swiper-container-horizontal">
-                                        <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms; overflow-x: auto;">
-                                            <div _ngcontent-ng-c747925873="" class="ng-star-inserted swiper-slide swiper-slide-active" style="width: 516.5px; margin-right: 20px;"><et-top-movers-list _ngcontent-ng-c747925873="" _nghost-ng-c3880730706="">
-                                                    <div _ngcontent-ng-c3880730706="" class="top-movers-list top-movers-list--topGainers ng-star-inserted"><a _ngcontent-ng-c3880730706="" class="top-mover-item control-a with-hover ng-star-inserted" href="/markets/faro">
-                                                            <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info">
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon-container">
-                                                                    <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon" style="background-color: rgb(1, 66, 106);"><img _ngcontent-ng-c3880730706="" loading="lazy" src="https://etoro-cdn.etorostatic.com/market-avatars/7947/7947_01426A_F7F7F7.svg" alt="FARO logo"></div><!---->
-                                                                </div>
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__content">
-                                                                    <h4 _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__title">FARO</h4><span _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__description et-instrument-icon-info__description--ellipsis">FARO Technologies Inc</span>
-                                                                </div>
-                                                            </div>
-                                                            <div _ngcontent-ng-c3880730706="" class="top-mover-item__price">
-                                                                <div _ngcontent-ng-c3880730706="" class="instrument-percent et-positive"> 34.69% </div>
-                                                            </div>
-                                                        </a><!----><!----><!----><!----><a _ngcontent-ng-c3880730706="" class="top-mover-item control-a with-hover ng-star-inserted" href="/markets/evgo">
-                                                            <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info">
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon-container">
-                                                                    <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon"><img _ngcontent-ng-c3880730706="" loading="lazy" src="https://etoro-cdn.etorostatic.com/market-avatars/8647/50x50.png" alt="EVGO logo"></div><!---->
-                                                                </div>
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__content">
-                                                                    <h4 _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__title">EVGO</h4><span _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__description et-instrument-icon-info__description--ellipsis">EVgo Inc</span>
-                                                                </div>
-                                                            </div>
-                                                            <div _ngcontent-ng-c3880730706="" class="top-mover-item__price">
-                                                                <div _ngcontent-ng-c3880730706="" class="instrument-percent et-positive"> 32.49% </div>
-                                                            </div>
-                                                        </a><!----><!----><!----><!----><a _ngcontent-ng-c3880730706="" class="top-mover-item control-a with-hover ng-star-inserted" href="/markets/dhc">
-                                                            <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info">
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon-container">
-                                                                    <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon" style="background-color: rgb(126, 199, 214);"><img _ngcontent-ng-c3880730706="" loading="lazy" src="https://etoro-cdn.etorostatic.com/market-avatars/10692/10692_7EC7D6_F7F7F7.svg" alt="DHC logo"></div><!---->
-                                                                </div>
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__content">
-                                                                    <h4 _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__title">DHC</h4><span _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__description et-instrument-icon-info__description--ellipsis">Diversified Heal</span>
-                                                                </div>
-                                                            </div>
-                                                            <div _ngcontent-ng-c3880730706="" class="top-mover-item__price">
-                                                                <div _ngcontent-ng-c3880730706="" class="instrument-percent et-positive"> 30.70% </div>
-                                                            </div>
-                                                        </a><!----><!----><!----><!----><a _ngcontent-ng-c3880730706="" class="top-mover-item control-a with-hover ng-star-inserted" href="/markets/crmd">
-                                                            <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info">
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon-container">
-                                                                    <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon" style="background-color: rgb(42, 43, 91);"><img _ngcontent-ng-c3880730706="" loading="lazy" src="https://etoro-cdn.etorostatic.com/market-avatars/10333/10333_2A2B5B_F7F7F7.svg" alt="CRMD logo"></div><!---->
-                                                                </div>
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__content">
-                                                                    <h4 _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__title">CRMD</h4><span _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__description et-instrument-icon-info__description--ellipsis">CorMedix Inc</span>
-                                                                </div>
-                                                            </div>
-                                                            <div _ngcontent-ng-c3880730706="" class="top-mover-item__price">
-                                                                <div _ngcontent-ng-c3880730706="" class="instrument-percent et-positive"> 23.64% </div>
-                                                            </div>
-                                                        </a><!----><!----><!----><!----><a _ngcontent-ng-c3880730706="" class="top-mover-item control-a with-hover ng-star-inserted" href="/markets/yxt">
-                                                            <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info">
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon-container">
-                                                                    <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon" style="background-color: rgb(255, 108, 12);"><img _ngcontent-ng-c3880730706="" loading="lazy" src="https://etoro-cdn.etorostatic.com/market-avatars/12161/12161_FF6C0C_FFFFFF.svg" alt="YXT logo"></div><!---->
-                                                                </div>
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__content">
-                                                                    <h4 _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__title">YXT</h4><span _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__description et-instrument-icon-info__description--ellipsis">YXT.COM Group Holding Ltd</span>
-                                                                </div>
-                                                            </div>
-                                                            <div _ngcontent-ng-c3880730706="" class="top-mover-item__price">
-                                                                <div _ngcontent-ng-c3880730706="" class="instrument-percent et-positive"> 23.33% </div>
-                                                            </div>
-                                                        </a><!----><!----><!----><!----><!----></div><!----><!----><!---->
-                                                </et-top-movers-list></div>
-                                            <div _ngcontent-ng-c747925873="" class="ng-star-inserted swiper-slide swiper-slide-next" style="width: 516.5px; margin-right: 20px;"><et-top-movers-list _ngcontent-ng-c747925873="" _nghost-ng-c3880730706="">
-                                                    <div _ngcontent-ng-c3880730706="" class="top-movers-list top-movers-list--topLosers ng-star-inserted"><a _ngcontent-ng-c3880730706="" class="top-mover-item control-a with-hover ng-star-inserted" href="/markets/seat">
-                                                            <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info">
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon-container">
-                                                                    <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon" style="background-color: rgb(44, 44, 44);"><img _ngcontent-ng-c3880730706="" loading="lazy" src="https://etoro-cdn.etorostatic.com/market-avatars/9251/9251_2C2C2C_F7F7F7.svg" alt="SEAT logo"></div><!---->
-                                                                </div>
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__content">
-                                                                    <h4 _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__title">SEAT</h4><span _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__description et-instrument-icon-info__description--ellipsis">Vivid Seats Inc (Class A)</span>
-                                                                </div>
-                                                            </div>
-                                                            <div _ngcontent-ng-c3880730706="" class="top-mover-item__price">
-                                                                <div _ngcontent-ng-c3880730706="" class="instrument-percent et-negative"> -37.81% </div>
-                                                            </div>
-                                                        </a><!----><!----><!----><!----><a _ngcontent-ng-c3880730706="" class="top-mover-item control-a with-hover ng-star-inserted" href="/markets/praa">
-                                                            <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info">
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon-container">
-                                                                    <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon" style="background-color: rgb(13, 59, 98);"><img _ngcontent-ng-c3880730706="" loading="lazy" src="https://etoro-cdn.etorostatic.com/market-avatars/9918/9918_0D3B62_F7F7F7.svg" alt="PRAA logo"></div><!---->
-                                                                </div>
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__content">
-                                                                    <h4 _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__title">PRAA</h4><span _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__description et-instrument-icon-info__description--ellipsis">Pra Group Inc</span>
-                                                                </div>
-                                                            </div>
-                                                            <div _ngcontent-ng-c3880730706="" class="top-mover-item__price">
-                                                                <div _ngcontent-ng-c3880730706="" class="instrument-percent et-negative"> -29.32% </div>
-                                                            </div>
-                                                        </a><!----><!----><!----><!----><a _ngcontent-ng-c3880730706="" class="top-mover-item control-a with-hover ng-star-inserted" href="/markets/capr">
-                                                            <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info">
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon-container">
-                                                                    <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon" style="background-color: rgb(0, 92, 185);"><img _ngcontent-ng-c3880730706="" loading="lazy" src="https://etoro-cdn.etorostatic.com/market-avatars/10982/10982_005CB9_F7F7F7.svg" alt="CAPR logo"></div><!---->
-                                                                </div>
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__content">
-                                                                    <h4 _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__title">CAPR</h4><span _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__description et-instrument-icon-info__description--ellipsis">Capricor Therapeutics Inc</span>
-                                                                </div>
-                                                            </div>
-                                                            <div _ngcontent-ng-c3880730706="" class="top-mover-item__price">
-                                                                <div _ngcontent-ng-c3880730706="" class="instrument-percent et-negative"> -29.25% </div>
-                                                            </div>
-                                                        </a><!----><!----><!----><!----><a _ngcontent-ng-c3880730706="" class="top-mover-item control-a with-hover ng-star-inserted" href="/markets/pack">
-                                                            <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info">
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon-container">
-                                                                    <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon" style="background-color: rgb(44, 44, 44);"><img _ngcontent-ng-c3880730706="" loading="lazy" src="https://etoro-cdn.etorostatic.com/market-avatars/10508/10508_2C2C2C_F7F7F7.svg" alt="PACK logo"></div><!---->
-                                                                </div>
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__content">
-                                                                    <h4 _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__title">PACK</h4><span _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__description et-instrument-icon-info__description--ellipsis">Ranpak Holdings Corp</span>
-                                                                </div>
-                                                            </div>
-                                                            <div _ngcontent-ng-c3880730706="" class="top-mover-item__price">
-                                                                <div _ngcontent-ng-c3880730706="" class="instrument-percent et-negative"> -29.08% </div>
-                                                            </div>
-                                                        </a><!----><!----><!----><!----><a _ngcontent-ng-c3880730706="" class="top-mover-item control-a with-hover ng-star-inserted" href="/markets/tcmd">
-                                                            <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info">
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon-container">
-                                                                    <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__icon" style="background-color: rgb(0, 44, 94);"><img _ngcontent-ng-c3880730706="" loading="lazy" src="https://etoro-cdn.etorostatic.com/market-avatars/9900/9900_002C5E_F7F7F7.svg" alt="TCMD logo"></div><!---->
-                                                                </div>
-                                                                <div _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__content">
-                                                                    <h4 _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__title">TCMD</h4><span _ngcontent-ng-c3880730706="" class="et-instrument-icon-info__description et-instrument-icon-info__description--ellipsis">Tactile Systems Technology Inc</span>
-                                                                </div>
-                                                            </div>
-                                                            <div _ngcontent-ng-c3880730706="" class="top-mover-item__price">
-                                                                <div _ngcontent-ng-c3880730706="" class="instrument-percent et-negative"> -28.98% </div>
-                                                            </div>
-                                                        </a><!----><!----><!----><!----><!----></div><!----><!----><!---->
-                                                </et-top-movers-list></div><!---->
-                                        </div>
-                                        <div class="swiper-scrollbar" hidden=""></div>
-                                        <div class="swiper-button-prev" hidden="" disabled="true"></div>
-                                        <div class="swiper-button-next" hidden="" disabled="true"></div>
-                                        <div class="swiper-pagination" hidden=""></div><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-                                    </div>
-                                </swiper><!----><!----><!---->
+                                <!-- TradingView Widget BEGIN -->
+                                <div class="tradingview-widget-container">
+                                    <div class="tradingview-widget-container__widget"></div>
+                                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
+                                        {
+                                            "colorTheme": "light",
+                                            "dateRange": "12M",
+                                            "exchange": "US",
+                                            "showChart": false,
+                                            "locale": "en",
+                                            "largeChartUrl": "",
+                                            "isTransparent": false,
+                                            "showSymbolLogo": false,
+                                            "showFloatingTooltip": false,
+                                            "width": "100%",
+                                            "height": "407"
+                                        }
+                                    </script>
+                                </div>
+                                <!-- TradingView Widget END -->
+                                <!-- coingecko start -->
+                                <script src="https://widgets.coingecko.com/gecko-coin-list-widget.js"></script>
+                                <gecko-coin-list-widget locale="en" outlined="true" coin-ids="" initial-currency="usd"></gecko-coin-list-widget>
+                                <!-- coingecko start end -->
                             </div>
                         </et-ui-swiper-wrapper></div><!----><!----><!----><!----><!----><!---->
                 </et-discovery-top-movers><et-instruments-swiper-cards-list _nghost-ng-c2984719623="" class="ng-star-inserted">
