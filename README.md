@@ -11,15 +11,20 @@ This project is developed and maintained by **elomscansio** for demonstration an
 **Installation Steps:**
 
 1. Clone the repository:
+   
    `git clone https://github.com/elomscansio/etoro-clone.git`
-2. Navigate to the project directory:
+3. Navigate to the project directory
+   
    `cd etoro-clone`
 
 **Usage Example:**
+
 Start php development server in the root to the project
+
 `php -S localhost:3000`
 
-Open your browser and hit: `http://localhost:`
+Open your browser and hit: `http://localhost:3000`
+
 ---
 
 **License**
