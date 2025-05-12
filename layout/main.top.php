@@ -77,21 +77,21 @@
         <div class="e-loader-ph"></div>
     </div>
     <script type="text/javascript" async="" src="/assets/lenax.etoro.com/libs/mixpanel-2-latest.min.js"></script>
-    <link rel="stylesheet" href="/assets/cdn.etorostatic.com/v651.677.5/css_files.css/?p[]=styles/style.css" media="all"
+    <link rel="stylesheet" href="/assets/cdn.etorostatic.com/v651.677.5/css_files.css?p[]=styles/style.css" media="all"
         onload="this.media='all'" />
-    <link rel="stylesheet" href="/assets/cdn.etorostatic.com/v651.722.1/css_files.css/?p[]=styles/style.css" media="all"
+    <link rel="stylesheet" href="/assets/cdn.etorostatic.com/v651.722.1/css_files.css?p[]=styles/style.css" media="all"
         onload="this.media='all'" />
     <script src="/assets/cdn.etorostatic.com/statics/web-loader.a6ce65a02667e1e91d69.js" defer="" fetchpriority="high"
         crossorigin="anonymous"></script>
     <script src="/assets/cdn.etorostatic.com/statics/legacy-bundle.2dc9ea8c01784e418252.js" defer=""
         fetchpriority="high" crossorigin="anonymous"></script>
     <script
-        src="/assets/cdn.etorostatic.com/v651.677.5/js_require.js/?r[]=infrastruct/libs/requirejs/etoro-require&amp;r[]=amd-config&amp;r[]=apps/etoroApp"
+        src="/assets/cdn.etorostatic.com/v651.677.5/js_require.js?r[]=infrastruct/libs/requirejs/etoro-require&amp;r[]=amd-config&amp;r[]=apps/etoroApp"
         defer="" fetchpriority="high" crossorigin="anonymous"></script>
     <script
         src="/assets/api.etorostatic.com/sapi/app-data/web-client-locales/en-gb.js?cv=2af70545caa4b0e682374ff55608e7d3_2318fd3ec88e7bb4b6fd26b4b02bf7ca"
         defer="" fetchpriority="high" crossorigin="anonymous"></script>
-    <script src="/assets/cdn.etorostatic.com/v651.677.5/js_files.js/?m[]=tools/browser-support" defer="" fetchpriority="low"
+    <script src="/assets/cdn.etorostatic.com/v651.677.5/js_files.js?m[]=tools/browser-support" defer="" fetchpriority="low"
         crossorigin="anonymous"></script>
     <script src="/assets/cdn.etorostatic.com/statics/runtime.d41b03c71cc3e052.js" defer="" fetchpriority="high"
         crossorigin="anonymous"></script>
@@ -101,7 +101,7 @@
         crossorigin="anonymous"></script>
     <script type="text/javascript" charset="utf-8" async="" crossorigin="anonymous" data-requirecontext="etoro"
         data-requiremodule="highcharts"
-        src="/assets/cdn.etorostatic.com/v651.722.1/js_files.js/?p[]=/infrastruct/libs/highcharts/highcharts.js"></script>
+        src="/assets/cdn.etorostatic.com/v651.722.1/js_files.js?p[]=/infrastruct/libs/highcharts/highcharts.js"></script>
 
     <app-root _nghost-ng-c2907778674="" ng-version="16.2.12">
         <et-layout-main _ngcontent-ng-c2907778674="" _nghost-ng-c1272297247="" class="main ng-star-inserted">
